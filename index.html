@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <base href="/portfolio/blunova1/index.html">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="track" content="8TGYQOuEB3cWFtObB">
+    <title>BluNova Properties - Luxury Rentals in Tennessee</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;family=Playfair+Display:wght@400;700&amp;display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --primary-color: #0066cc;
+        --secondary-color: #f8f8f8;
+        --text-color: #333;
+        --accent-color: #ff9900;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: "Montserrat", sans-serif;
+        line-height: 1.6;
+        color: var(--text-color);
+      }
+
+      header {
+        background-color: var(--primary-color);
+        color: white;
+        padding: 1rem;
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .logo {
+        font-family: "Playfair Display", serif;
+        font-size: 1.5rem;
+        font-weight: 700;
+      }
+
+      .nav-links {
+        display: flex;
+        list-style: none;
+      }
+
+      .nav-links li {
+        margin-left: 1rem;
+      }
+
+      .nav-links a {
+        color: white;
+        text-decoration: none;
+        transition: color 0.3s ease;
+      }
+
+      .nav-links a:hover {
+        color: var(--accent-color);
+      }
+
+      .hero {
+        height: 100vh;
+        background-image: url("https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1973&q=80");
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        position: relative;
+      }
+
+      .hero-content {
+        z-index: 1;
+      }
+
+      .hero h1 {
+        font-family: "Playfair Display", serif;
+        font-size: 3rem;
+        margin-bottom: 1rem;
+      }
+
+      .hero p {
+        font-size: 1.2rem;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      .hero-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+
+      main {
+        padding: 2rem;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .property-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        margin-top: 2rem;
+      }
+
+      .property-card {
+        background-color: white;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+      }
+
+      .property-card:hover {
+        transform: translateY(-5px);
+      }
+
+      .property-image {
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+      }
+
+      .property-details {
+        padding: 1rem;
+      }
+
+      .property-title {
+        font-family: "Playfair Display", serif;
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .property-price {
+        font-weight: 700;
+        color: var(--primary-color);
+      }
+
+      .cta-button {
+        display: inline-block;
+        background-color: var(--accent-color);
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        text-decoration: none;
+        margin-top: 1rem;
+        transition: background-color 0.3s ease;
+      }
+
+      .cta-button:hover {
+        background-color: #e68a00;
+      }
+
+      footer {
+        background-color: var(--secondary-color);
+        color: var(--text-color);
+        text-align: center;
+        padding: 1rem;
+        margin-top: 2rem;
+      }
+
+      @media (max-width: 768px) {
+        .hero h1 {
+          font-size: 2rem;
+        }
+
+        .hero p {
+          font-size: 1rem;
+        }
+
+        .property-list {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  
+<!-- Google tag (gtag.js) --> <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-V0GW25P48Z"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-V0GW25P48Z'); </script></head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">BluNova Properties</div>
+        <ul class="nav-links">
+          <li><a href="/portfolio/blunova1/properties.html">Properties</a></li>
+          <li><a href="/portfolio/blunova1/about.html">About</a></li>
+          <li><a href="/portfolio/blunova1/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1>Luxury Living in Tennessee</h1>
+        <p>
+          Discover our handpicked selection of premium rental properties across
+          the beautiful state of Tennessee.
+        </p>
+      </div>
+    </section>
+
+    <main>
+      <section id="properties">
+        <h2>Featured Properties</h2>
+        <div class="property-list">
+          <div class="property-card">
+            <div class="property-image" style="
+                background-image: url('https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1170&amp;q=80');
+              "></div>
+            <div class="property-details">
+              <h3 class="property-title">Luxurious Downtown Loft</h3>
+              <p>Nashville, TN</p>
+              <p class="property-price">$2,500/month</p>
+              <a href="/portfolio/blunova1/properties/downtown-loft.html" class="cta-button">View Details</a>
+            </div>
+          </div>
+          <div class="property-card">
+            <div class="property-image" style="
+                background-image: url('https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1175&amp;q=80');
+              "></div>
+            <div class="property-details">
+              <h3 class="property-title">Charming Suburban Home</h3>
+              <p>Franklin, TN</p>
+              <p class="property-price">$3,200/month</p>
+              <a href="/portfolio/blunova1/properties/suburban-home.html" class="cta-button">View Details</a>
+            </div>
+          </div>
+          <div class="property-card">
+            <div class="property-image" style="
+                background-image: url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1170&amp;q=80');
+              "></div>
+            <div class="property-details">
+              <h3 class="property-title">Modern Riverfront Condo</h3>
+              <p>Chattanooga, TN</p>
+              <p class="property-price">$1,800/month</p>
+              <a href="/portfolio/blunova1/properties/riverfront-condo.html" class="cta-button">View Details</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2023 BluNova Properties. All rights reserved.</p>
+    </footer>
+  
+
+</body></html>
