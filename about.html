@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <base href="/portfolio/blunova1/about.html">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="track" content="2qc1opQ0TsJDhuDIi">
+    <title>About BluNova Properties | Luxury Rentals in Tennessee</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;family=Playfair+Display:wght@400;700&amp;display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --primary-color: #0066cc;
+        --secondary-color: #f8f8f8;
+        --text-color: #333;
+        --accent-color: #ff9900;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: "Montserrat", sans-serif;
+        line-height: 1.6;
+        color: var(--text-color);
+      }
+
+      header {
+        background-color: var(--primary-color);
+        color: white;
+        padding: 1rem;
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .logo {
+        font-family: "Playfair Display", serif;
+        font-size: 1.5rem;
+        font-weight: 700;
+      }
+
+      .nav-links {
+        display: flex;
+        list-style: none;
+      }
+
+      .nav-links li {
+        margin-left: 1rem;
+      }
+
+      .nav-links a {
+        color: white;
+        text-decoration: none;
+        transition: color 0.3s ease;
+      }
+
+      .nav-links a:hover {
+        color: var(--accent-color);
+      }
+
+      main {
+        padding-top: 5rem;
+      }
+
+      .about-hero {
+        background-image: url("https://images.unsplash.com/photo-1449844908441-8829872d2607?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+        background-size: cover;
+        background-position: center;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        position: relative;
+      }
+
+      .about-hero::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+      }
+
+      .about-hero h1 {
+        font-family: "Playfair Display", serif;
+        font-size: 3rem;
+        position: relative;
+        z-index: 1;
+      }
+
+      .about-content {
+        max-width: 800px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+      }
+
+      .about-content h2 {
+        font-family: "Playfair Display", serif;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        color: var(--primary-color);
+      }
+
+      .about-content p {
+        margin-bottom: 1.5rem;
+      }
+
+      .team-section {
+        background-color: var(--secondary-color);
+        padding: 3rem 1rem;
+      }
+
+      .team-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .team-member {
+        text-align: center;
+      }
+
+      .team-member img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 1rem;
+      }
+
+      .team-member h3 {
+        font-family: "Playfair Display", serif;
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .team-member p {
+        font-style: italic;
+        color: #666;
+      }
+
+      .timeline {
+        position: relative;
+        max-width: 800px;
+        margin: 3rem auto;
+        padding: 2rem 0;
+      }
+
+      .timeline::after {
+        content: "";
+        position: absolute;
+        width: 6px;
+        background-color: var(--primary-color);
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        margin-left: -3px;
+      }
+
+      .timeline-item {
+        padding: 10px 40px;
+        position: relative;
+        background-color: inherit;
+        width: 50%;
+      }
+
+      .timeline-item::after {
+        content: "";
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        right: -17px;
+        background-color: white;
+        border: 4px solid var(--accent-color);
+        top: 15px;
+        border-radius: 50%;
+        z-index: 1;
+      }
+
+      .left {
+        left: 0;
+      }
+
+      .right {
+        left: 50%;
+      }
+
+      .left::before {
+        content: " ";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 1;
+        right: 30px;
+        border: medium solid var(--secondary-color);
+        border-width: 10px 0 10px 10px;
+        border-color: transparent transparent transparent var(--secondary-color);
+      }
+
+      .right::before {
+        content: " ";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 1;
+        left: 30px;
+        border: medium solid var(--secondary-color);
+        border-width: 10px 10px 10px 0;
+        border-color: transparent var(--secondary-color) transparent transparent;
+      }
+
+      .right::after {
+        left: -16px;
+      }
+
+      .timeline-content {
+        padding: 20px 30px;
+        background-color: var(--secondary-color);
+        position: relative;
+        border-radius: 6px;
+      }
+
+      footer {
+        background-color: var(--primary-color);
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 2rem;
+      }
+
+      @media screen and (max-width: 600px) {
+        .timeline::after {
+          left: 31px;
+        }
+
+        .timeline-item {
+          width: 100%;
+          padding-left: 70px;
+          padding-right: 25px;
+        }
+
+        .timeline-item::before {
+          left: 60px;
+          border: medium solid var(--secondary-color);
+          border-width: 10px 10px 10px 0;
+          border-color: transparent var(--secondary-color) transparent
+            transparent;
+        }
+
+        .left::after,
+        .right::after {
+          left: 15px;
+        }
+
+        .right {
+          left: 0%;
+        }
+      }
+    </style>
+  
+<!-- Google tag (gtag.js) --> <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-V0GW25P48Z"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-V0GW25P48Z'); </script></head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">BluNova Properties</div>
+        <ul class="nav-links">
+          <li><a href="/portfolio/blunova1/index.html">Home</a></li>
+          <li>
+            <a href="/portfolio/blunova1/properties.html">Properties</a>
+          </li>
+          <li><a href="/portfolio/blunova1/about.html">About</a></li>
+          <li><a href="/portfolio/blunova1/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="about-hero">
+        <h1>About BluNova Properties</h1>
+      </section>
+
+      <section class="about-content">
+        <h2>Our Story</h2>
+        <p>
+          BluNova Properties was founded in 2010 with a vision to revolutionize
+          the luxury rental market in Tennessee. Our founders, Sarah Thompson
+          and Michael Chen, saw an opportunity to blend modern design with
+          Southern charm, creating unique living spaces that cater to the
+          discerning renter.
+        </p>
+        <p>
+          Starting with a single property in Nashville, we've grown to manage
+          over 50 premium rentals across Tennessee's major cities. Our success
+          is built on our commitment to quality, attention to detail, and
+          dedication to providing an unparalleled living experience for our
+          tenants.
+        </p>
+
+        <h2>Our Mission</h2>
+        <p>
+          At BluNova Properties, our mission is to redefine luxury living in
+          Tennessee. We strive to create homes that inspire, comfort, and
+          delight our residents. By carefully curating our properties and
+          providing exceptional service, we aim to exceed expectations and set
+          new standards in the rental market.
+        </p>
+
+        <h2>Our Values</h2>
+        <ul>
+          <li>
+            <strong>Quality:</strong> We never compromise on the quality of our
+            properties or services.
+          </li>
+          <li>
+            <strong>Innovation:</strong> We continuously seek new ways to
+            improve and enhance the living experience.
+          </li>
+          <li>
+            <strong>Integrity:</strong> We operate with honesty and transparency
+            in all our dealings.
+          </li>
+          <li>
+            <strong>Community:</strong> We believe in fostering a sense of
+            belonging among our residents and in the neighborhoods we serve.
+          </li>
+          <li>
+            <strong>Sustainability:</strong> We are committed to implementing
+            eco-friendly practices in our properties and operations.
+          </li>
+        </ul>
+      </section>
+      <h2 style="text-align: center; margin-bottom: 2rem">Our Journey</h2>
+
+      <section class="timeline" style="margin-bottom: 5rem">
+        <div class="timeline-item left">
+          <div class="timeline-content">
+            <h3>2010</h3>
+            <p>BluNova Properties founded in Nashville, TN</p>
+          </div>
+        </div>
+        <div class="timeline-item right">
+          <div class="timeline-content">
+            <h3>2012</h3>
+            <p>Expanded to Memphis with our first out-of-Nashville property</p>
+          </div>
+        </div>
+        <div class="timeline-item left">
+          <div class="timeline-content">
+            <h3>2015</h3>
+            <p>Launched our innovative smart home integration program</p>
+          </div>
+        </div>
+        <div class="timeline-item right">
+          <div class="timeline-content">
+            <h3>2018</h3>
+            <p>Reached milestone of 25 premium properties across Tennessee</p>
+          </div>
+        </div>
+        <div class="timeline-item left">
+          <div class="timeline-content">
+            <h3>2020</h3>
+            <p>Introduced virtual tours and contactless move-in experiences</p>
+          </div>
+        </div>
+        <div class="timeline-item right">
+          <div class="timeline-content">
+            <h3>2023</h3>
+            <p>Celebrating our growth to over 50 luxury properties statewide</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="team-section">
+        <h2 style="text-align: center; margin-bottom: 2rem">
+          Meet Our Leadership Team
+        </h2>
+        <div class="team-grid">
+          <div class="team-member">
+            <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=687&amp;q=80" alt="Sarah Thompson" width="200" height="200">
+            <h3>Sarah Thompson</h3>
+            <p>Co-founder &amp; CEO</p>
+          </div>
+          <div class="team-member">
+            <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1171&amp;q=80" alt="Michael Chen" width="200" height="200">
+            <h3>Michael Chen</h3>
+            <p>Co-founder &amp; COO</p>
+          </div>
+          <div class="team-member">
+            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=687&amp;q=80" alt="David Martinez" width="200" height="200">
+            <h3>David Martinez</h3>
+            <p>Head of Property Management</p>
+          </div>
+      </div></section>
+    </main>
+
+    <footer>
+      <p>© 2023 BluNova Properties. All rights reserved.</p>
+      <p>
+        <a href="/portfolio/blunova1/privacy-policy.html" style="color: white">Privacy Policy</a>
+        |
+        <a href="/portfolio/blunova1/terms-of-service.html" style="color: white">Terms of Service</a>
+      </p>
+    </footer>
+  
+
+</body></html>
