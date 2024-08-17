@@ -1,0 +1,11 @@
+{
+	"links": {
+		"link": [
+			"./about.html",
+			"./contact.html"
+		]
+	},
+	"content": "\n        ",
+	"properties": [],
+	"footer": "\n      "
+}
