@@ -1,7 +1,5 @@
 {
-  "links": {
-    "link": ["./about.html", "./contact.html"]
-  },
+  "links": ["./about.html", "./contact.html"],
   "content": "<h1>Exclusive Properties in Knoxville</h1>\n<p>\n  I'm excited to share a curated selection of my rental properties located in the beautiful city of Knoxville, Tennessee. These homes, personally managed by me, offer a comfortable and welcoming living experience.\n</p>\n",
   "properties": [
     {
