@@ -6,6 +6,27 @@
 		]
 	},
 	"content": "hi",
-	"properties": [],
+	"properties": [
+		{
+			"image": [
+				"https://cdn.jsdelivr.net/gh/hsingh23/blunova@34b9aaa45ec3970c3fad079b795b7a3d81db3d89/images/vegan-4809593_1280.jpg",
+				null,
+				null,
+				null
+			],
+			"title": [
+				"Cherry Grove",
+				"Creekhead Cove",
+				"Chimmney Ridge",
+				"Luttrell and 3rd"
+			],
+			"price": [
+				"Knoxville, TN",
+				"Knoxville, TN",
+				"Knoxville, TN",
+				"Knoxville, TN"
+			]
+		}
+	],
 	"footer": "Hello      "
 }
