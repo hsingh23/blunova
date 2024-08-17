@@ -5,10 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="track" content="4qgy2iq021tFGUiPN" />
     <title>Blunova Properties - Our Properties</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;family=Playfair+Display:wght@400;700&amp;display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;family=Playfair+Display:wght@400;700&amp;display=swap" rel="stylesheet" />
     <style>
       :root {
         --primary-color: #0066cc;
@@ -175,10 +172,7 @@
     </style>
 
     <!-- Google tag (gtag.js) -->
-    <script
-      async=""
-      src="https://www.googletagmanager.com/gtag/js?id=G-V0GW25P48Z"
-    ></script>
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-V0GW25P48Z"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
@@ -193,10 +187,9 @@
       <nav>
         <div class="logo">Blunova Properties</div>
         <ul class="nav-links">
-          <li><a href="/portfolio/blunova1/index.html">Home</a></li>
-          <li><a href="/portfolio/blunova1/properties.html">Properties</a></li>
-          <li><a href="/portfolio/blunova1/about.html">About</a></li>
-          <li><a href="/portfolio/blunova1/contact.html">Contact</a></li>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -224,11 +217,7 @@
             <h3 class="property-title">Luxurious Downtown Loft</h3>
             <p>Nashville, TN</p>
             <p class="property-price">$2,500/month</p>
-            <a
-              href="/portfolio/blunova1/properties/downtown-loft.html"
-              class="cta-button"
-              >View Details</a
-            >
+            <a href="./properties/downtown-loft.html" class="cta-button">View Details</a>
           </div>
         </div>
         <div class="property-card">
@@ -242,11 +231,7 @@
             <h3 class="property-title">Charming Suburban Home</h3>
             <p>Franklin, TN</p>
             <p class="property-price">$3,200/month</p>
-            <a
-              href="/portfolio/blunova1/properties/suburban-home.html"
-              class="cta-button"
-              >View Details</a
-            >
+            <a href="./properties/suburban-home.html" class="cta-button">View Details</a>
           </div>
         </div>
         <div class="property-card">
@@ -260,11 +245,7 @@
             <h3 class="property-title">Modern Riverfront Condo</h3>
             <p>Chattanooga, TN</p>
             <p class="property-price">$1,800/month</p>
-            <a
-              href="/portfolio/blunova1/properties/riverfront-condo.html"
-              class="cta-button"
-              >View Details</a
-            >
+            <a href="./properties/riverfront-condo.html" class="cta-button">View Details</a>
           </div>
         </div>
         <div class="property-card">
@@ -278,11 +259,7 @@
             <h3 class="property-title">Cozy Downtown Apartment</h3>
             <p>Memphis, TN</p>
             <p class="property-price">$1,600/month</p>
-            <a
-              href="/portfolio/blunova1/properties/downtown-apartment.html"
-              class="cta-button"
-              >View Details</a
-            >
+            <a href="./properties/downtown-apartment.html" class="cta-button">View Details</a>
           </div>
         </div>
         <div class="property-card">
@@ -296,11 +273,7 @@
             <h3 class="property-title">Elegant Victorian House</h3>
             <p>Nashville, TN</p>
             <p class="property-price">$4,000/month</p>
-            <a
-              href="/portfolio/blunova1/properties/victorian-house.html"
-              class="cta-button"
-              >View Details</a
-            >
+            <a href="./properties/victorian-house.html" class="cta-button">View Details</a>
           </div>
         </div>
         <div class="property-card">
@@ -314,11 +287,7 @@
             <h3 class="property-title">Spacious Family Home</h3>
             <p>Franklin, TN</p>
             <p class="property-price">$3,500/month</p>
-            <a
-              href="/portfolio/blunova1/properties/family-home.html"
-              class="cta-button"
-              >View Details</a
-            >
+            <a href="./properties/family-home.html" class="cta-button">View Details</a>
           </div>
         </div>
       </div>
@@ -341,9 +310,7 @@
             button.classList.add("active");
 
             propertyCards.forEach((card) => {
-              const location = card
-                .querySelector("p")
-                .textContent.toLowerCase();
+              const location = card.querySelector("p").textContent.toLowerCase();
               if (filter === "all" || location.includes(filter)) {
                 card.style.display = "block";
               } else {

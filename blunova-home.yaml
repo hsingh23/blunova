@@ -1,0 +1,36 @@
+- links:
+    - link: ./about.html
+    - link: ./contact.html
+
+- content: |
+    <h1>Exclusive Properties in Knoxville</h1>
+    <p>
+      I'm excited to share a curated selection of my rental properties located in the beautiful city of Knoxville, Tennessee. These homes, personally managed by me, offer a comfortable and welcoming living experience.
+    </p>
+- properties:
+    - image: "./properties/cherry-grove-images/Front.jpg"
+      title: "Cherry Grove"
+      price: "Knoxville, TN"
+      description: "Single family house with 4 Rooms for rent"
+      details_link: "./properties/cherry-grove.html"
+
+    - image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1175&amp;q=80"
+      title: "Creekhead Cove"
+      price: "Knoxville, TN"
+      description: "Single family house with 4 Rooms for rent"
+      details_link: "/properties/suburban-home.html"
+
+    - image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1170&amp;q=80"
+      title: "Chimmney Ridge"
+      price: "Knoxville, TN"
+      description: "Single family house with 3 Rooms for rent"
+      details_link: "/properties/riverfront-condo.html"
+
+    - image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1170&amp;q=80"
+      title: "Luttrell and 3rd"
+      price: "Knoxville, TN"
+      description: "2 (1 bed apartment), and 2 (2 bedroom apartment)"
+      details_link: "/properties/riverfront-condo.html"
+
+- footer:
+    - text: "© 2023 Blunova Properties. All rights reserved."
