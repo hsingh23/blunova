@@ -119,9 +119,9 @@
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: 2rem;
         margin-top: 2rem;
-        --mv-list: true;
+        /* --mv-list: true; */
         /* --mv-multiple: true; */
-        --mv-property: properties;
+        /* --mv-property: properties; */
       }
 
       .property-card {
@@ -147,6 +147,11 @@
 
       .property-details {
         padding: 1rem;
+        --mv-property: detail;
+      }
+
+      .property-description {
+        --mv-property: description;
       }
 
       .property-title {
@@ -156,10 +161,10 @@
         --mv-property: title;
       }
 
-      .property-price {
+      .property-location {
         font-weight: 700;
         color: var(--primary-color);
-        --mv-property: price;
+        --mv-property: location;
       }
 
       .cta-button {
@@ -171,6 +176,7 @@
         text-decoration: none;
         margin-top: 1rem;
         transition: background-color 0.3s ease;
+        --mv-property: link;
       }
 
       .cta-button:hover {
@@ -212,7 +218,8 @@
       gtag("config", "G-V0GW25P48Z");
     </script>
   </head>
-  <body mv-plugins="tinymce importhtml" mv-app="blunova-home" mv-storage="https://github.com/hsingh23/blunova" mv-bar="no-login" mv-upload-path="pictures">
+  <!-- <body mv-plugins="tinymce importhtml" mv-app="blunova-home" mv-storage="https://github.com/hsingh23/blunova" mv-bar="no-login" mv-upload-path="pictures"> -->
+  <body mv-plugins="tinymce importhtml" mv-app="blunova-home" mv-storage="local" mv-bar="no-login" mv-upload-path="pictures">
     <header>
       <nav>
         <div class="logo">Blunova Properties</div>
@@ -232,14 +239,14 @@
     <main>
       <section id="properties">
         <h2>Featured Properties</h2>
-        <div class="property-list">
-          <div class="property-card">
+        <div class="property-list" mv-list>
+          <div class="property-card" mv-list-item>
             <img class="property-image" src="./properties/cherry-grove-images/Front.jpg"></img>
             <div class="property-details">
               <h3 class="property-title">Cherry Grove</h3>
-              <p class="property-price">Knoxville, TN</p>
+              <p class="property-location">Knoxville, TN</p>
               <p class="property-description">Single family house with 4 Rooms for rent</p>
-              <a href="./properties/cherry-grove.html" class="cta-button">View Details</a>
+              <a href="./properties/cherry-grove.html" class="cta-button property-link" >View Details</a>
             </div>
           </div>
 
