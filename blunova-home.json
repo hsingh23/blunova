@@ -26,7 +26,9 @@
 			"price": "Knoxville, TN",
 			"description": "Single family house with 4 Rooms for rent",
 			"link": "/properties/suburban-home.html",
-			"detail": {}
+			"detail": {
+				"title": "Hello"
+			}
 		},
 		{
 			"image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1170&amp;q=80",
