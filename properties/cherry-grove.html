@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="track" content="ilP37bsuJBxCMKqil" />
     <title>Cherry Grove | Blunova Properties</title>
+    <link rel="stylesheet" href="https://get.mavo.io/mavo.min.css" />
+    <script src="https://get.mavo.io/mavo.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;family=Playfair+Display:wght@400;700&amp;display=swap" rel="stylesheet" />
     <style>
       :root {
@@ -113,6 +115,7 @@
         display: grid;
         grid-template-columns: 2fr 1fr;
         gap: 2rem;
+        --mv-property: property-details;
       }
 
       .property-description h2 {
@@ -206,7 +209,14 @@
       gtag("config", "G-V0GW25P48Z");
     </script>
   </head>
-  <body>
+  <body
+    mv-plugins="tinymce importhtml"
+    mv-app="blunova-cherryGrove"
+    mv-storage="https://github.com/hsingh23/blunova"
+    mv-bar="no-login"
+    autosave="3"
+    mv-upload-path="pictures/cherry-grove"
+  >
     <header>
       <nav>
         <div class="logo">Blunova Properties</div>
@@ -219,14 +229,14 @@
 
     <main>
       <section class="property-hero">
-        <div class="property-hero-content">
+        <div class="property-hero-content tinymce" property>
           <h1>Cherry Grove</h1>
           <p>Knoxville, TN</p>
         </div>
       </section>
 
       <section class="property-details">
-        <div class="property-description">
+        <div class="property-description tinymce" property>
           <h2>Property Overview</h2>
           <p>This charming retreat in Knoxville offers a cozy and comfortable stay. The property features modern amenities and is perfect for both short and long stays.</p>
           <p>
@@ -251,7 +261,7 @@
         </div>
         <div class="property-features">
           <h3>Quick Facts</h3>
-          <ul class="feature-list">
+          <ul class="feature-list tinymce" property>
             <li><strong>Bedrooms:</strong> 4</li>
             <li><strong>Bathrooms:</strong> 1.5 shared bathrooms, with the master bedroom having a private bathroom.</li>
             <li><strong>Pet Policy:</strong> Pets not allowed</li>
@@ -260,17 +270,20 @@
       </section>
 
       <section style="margin: 40px">
-        <h2>Rooms</h2>
-        <p>
-          <strong> Each room below goes to airbnb which has availability and pricing information </strong>
-        </p>
+        <div class="gallery-desc tinymce" property>
+          <h2>Rooms</h2>
+          <p>
+            <strong> Each room below goes to airbnb which has availability and pricing information </strong>
+          </p>
+        </div>
 
-        <section class="gallery">
-          <a href="https://www.airbnb.com/rooms/1030589498253747656" target="_blank" rel="noopener noreferrer"><img src="./rooms/3.webp" width="200" height="200" /></a>
-          <a href="https://www.airbnb.com/rooms/1030589992179067582" target="_blank" rel="noopener noreferrer"><img src="./rooms/1.jpeg" width="200" height="200" /></a>
+        <section class="gallery" mv-multiple>
+          <a href="https://www.airbnb.com/rooms/1030589498253747656" target="_blank" rel="noopener noreferrer" property="link"
+            ><img src="./rooms/3.webp" width="200" height="200" property="image"
+          /></a>
+          <!-- <a href="https://www.airbnb.com/rooms/1030589992179067582" target="_blank" rel="noopener noreferrer"><img src="./rooms/1.jpeg" width="200" height="200" /></a>
           <a href="https://www.airbnb.com/rooms/1030589321409011455" target="_blank" rel="noopener noreferrer"><img src="./rooms/2.webp" width="200" height="200" /></a>
-
-          <a href="https://www.airbnb.com/rooms/1010131515172519042" target="_blank" rel="noopener noreferrer"><img src="./rooms/4.jpeg" width="200" height="200" /></a>
+          <a href="https://www.airbnb.com/rooms/1010131515172519042" target="_blank" rel="noopener noreferrer"><img src="./rooms/4.jpeg" width="200" height="200" /></a> -->
         </section>
         <h2>House</h2>
         <section class="gallery">
