@@ -32,9 +32,10 @@
         background-color: var(--primary-color);
         color: white;
         padding: 1rem;
-        position: fixed;
+        position: sticky;
+        top: 0;
+        z-index: 2;
         width: 100%;
-        z-index: 1000;
       }
 
       nav {
@@ -84,19 +85,20 @@
 
       .hero-content {
         z-index: 1;
-        --mv-property: content;
       }
 
       .hero h1 {
         font-family: "Playfair Display", serif;
         font-size: 3rem;
         margin-bottom: 1rem;
+        /* --mv-property: title; */
       }
 
       .hero p {
         font-size: 1.2rem;
         max-width: 600px;
         margin: 0 auto;
+        /* --mv-property: description; */
       }
 
       .hero-overlay {
@@ -147,7 +149,6 @@
 
       .property-details {
         padding: 1rem;
-        --mv-property: detail;
       }
 
       .property-description {
@@ -218,13 +219,12 @@
       gtag("config", "G-V0GW25P48Z");
     </script>
   </head>
-  <!-- <body mv-plugins="tinymce importhtml" mv-app="blunova-home" mv-storage="https://github.com/hsingh23/blunova" mv-bar="no-login" mv-upload-path="pictures"> -->
-  <body mv-plugins="tinymce importhtml" mv-app="blunova-home" mv-storage="local" mv-bar="no-login" mv-upload-path="pictures">
+  <body mv-plugins="tinymce importhtml" mv-app="blunova-home" mv-storage="https://github.com/hsingh23/blunova" mv-bar="no-login" mv-upload-path="pictures">
     <header>
       <nav>
         <div class="logo">Blunova Properties</div>
         <ul class="nav-links">
-          <li><a href="./about.html" >About</a></li>
+          <li><a href="./about.html">About</a></li>
           <li><a href="./contact.html">Contact</a></li>
         </ul>
       </nav>
@@ -232,29 +232,27 @@
 
     <section class="hero">
       <div class="hero-overlay"></div>
-      <div class="hero-content">
-      </div>
+      <div class="hero-content tinymce" property="sectionContent"></div>
     </section>
 
     <main>
       <section id="properties">
         <h2>Featured Properties</h2>
+
         <div class="property-list" mv-list>
           <div class="property-card" mv-list-item>
-            <img class="property-image" src="./properties/cherry-grove-images/Front.jpg"></img>
+            <img class="property-image" src="./properties/cherry-grove-images/Front.jpg" />
             <div class="property-details">
               <h3 class="property-title">Cherry Grove</h3>
               <p class="property-location">Knoxville, TN</p>
               <p class="property-description">Single family house with 4 Rooms for rent</p>
-              <a href="./properties/cherry-grove.html" class="cta-button property-link" >View Details</a>
+              <a href="./properties/cherry-grove.html" class="cta-button property-link">View Details</a>
             </div>
           </div>
-
         </div>
       </section>
     </main>
 
-    <footer>
-    </footer>
+    <footer></footer>
   </body>
 </html>
