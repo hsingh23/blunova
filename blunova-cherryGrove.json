@@ -10,5 +10,11 @@
 			"link": "https://www.airbnb.com/rooms/1030589498253747656",
 			"image": "./rooms/3.webp"
 		}
+	],
+	"airbnb-links": [
+		{
+			"link": "https://www.airbnb.com/rooms/1030589498253747656",
+			"image": "./rooms/3.webp"
+		}
 	]
 }
