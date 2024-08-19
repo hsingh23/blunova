@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="track" content="Clp49d13KT6Xk0tiz" />
     <title>Contact Blunova Properties | Luxury Rentals in Tennessee</title>
+    <script src="https://web.celeritytechconsulting.com/form-wrapper.js" defer></script>
+    <link rel="stylesheet" href="https://get.mavo.io/mavo.min.css" />
+    <script src="https://get.mavo.io/mavo.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;family=Playfair+Display:wght@400;700&amp;display=swap" rel="stylesheet" />
     <style>
       :root {
@@ -193,7 +196,7 @@
       gtag("config", "G-V0GW25P48Z");
     </script>
   </head>
-  <body>
+  <body mv-plugins="tinymce" mv-app="blunova-contact" mv-storage="https://github.com/hsingh23/blunova" mv-bar="no-login" autosave="3" mv-upload-path="pictures">
     <header>
       <nav>
         <div class="logo">Blunova Properties</div>
@@ -212,14 +215,10 @@
 
       <section class="contact-content">
         <div class="contact-grid">
-          <div class="contact-info">
+          <div class="contact-info tinymce" property="contactInfo">
             <h2>Get in Touch</h2>
             <p><strong>Address:</strong> 123 Main Street, Nashville, TN 37203</p>
             <p><strong>Phone:</strong> (615) 555-0123</p>
-            <p>
-              <strong>Email:</strong>
-              <a href="./cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="0861666e67486a647d66677e69787a67786d7a7c616d7b266b6765">[email&nbsp;protected]</a>
-            </p>
             <p>
               <strong>Office Hours:</strong><br />
               Monday - Friday: 9:00 AM - 6:00 PM<br />
@@ -229,25 +228,25 @@
           </div>
           <div class="contact-form">
             <h2>Send Us a Message</h2>
-            <form method="GET" action="https://blunovaproperties.com/submit-contact">
-              <label for="name">Name:</label>
-              <input type="text" id="name" name="name" required="" />
+            <form-wrapper data-form-id="Emails-134e76">
+              <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required="" />
 
-              <label for="email">Email:</label>
-              <input type="email" id="email" name="email" required="" />
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required="" />
 
-              <label for="phone">Phone:</label>
-              <input type="tel" id="phone" name="phone" />
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" />
 
-              <label for="message">Message:</label>
-              <textarea id="message" name="message" rows="4" required=""></textarea>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required=""></textarea>
 
-              <button type="submit">Send Message</button>
-            </form>
+                <button type="submit">Send Message</button>
+              </form>
+            </form-wrapper>
           </div>
         </div>
-
-        <div class="map-container">[Interactive map showing Blunova Properties office location]</div>
       </section>
     </main>
 
@@ -259,6 +258,5 @@
         <a href="./terms-of-service.html" style="color: white">Terms of Service</a>
       </p>
     </footer>
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
   </body>
 </html>
