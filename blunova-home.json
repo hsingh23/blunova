@@ -1,44 +1,38 @@
 {
-	"links": {
-		"link": [
-			"./about.html",
-			"./contact.html"
-		]
-	},
-	"sectionContent": "<h1>Exclusive Properties in Knoxville</h1>\n<p>&nbsp;</p>\n<p>I'm excited to share a curated selection of my rental properties located in the beautiful city of Knoxville, Tennessee. These homes, personally managed by me, offer a comfortable and welcoming living experience.</p>\n<p>&nbsp;</p>",
-	"property-card": [
-		{
-			"image": "./properties/cherry-grove-images/Front.jpg",
-			"title": "Cherry Grove",
-			"location": "Knoxville, TN",
-			"description": "Single family house with 4 Rooms for rent",
-			"link": "./properties/cherry-grove.html"
-		},
-		{
-			"image": "https://cdn.jsdelivr.net/gh/hsingh23/blunova@6d112cd68ddf00c529ddfd46db962dbf2cbc63c7/images/Front%20Image.jpg",
-			"title": "Creekhead Cove",
-			"location": "Knoxville, TN",
-			"description": "Single family house with 4 Rooms for rent",
-			"link": "/properties/creekhead.html"
-		},
-		{
-			"image": "https://cdn.jsdelivr.net/gh/hsingh23/blunova@1ff56fd0cc978f3577742e46be8d4314a43469c2/images/2413%20Chimney%20Ridge_House.jpg",
-			"title": "Chimney Ridge",
-			"location": "Knoxville, TN",
-			"description": "Single family house with 3 Rooms for rent",
-			"link": "/properties/chimney.html"
-		},
-		{
-			"image": "https://cdn.jsdelivr.net/gh/hsingh23/blunova@c8cdce71467b91badded52c843e33b73c1792964/images/628%20House.jpg",
-			"title": "Luttrell and 3rd",
-			"location": "Knoxville, TN",
-			"description": "2 (1 bed apartment), and 2 (2 bedroom apartment)",
-			"link": "/properties/luttrell.html"
-		}
-	],
-	"footer": "© 2023 Blunova Properties. All rights reserved.",
-	"link": [
-		"./about.html",
-		"./contact.html"
-	]
+  "links": {
+    "link": ["./about.html", "./contact.html"]
+  },
+  "sectionContent": "<h1>Exclusive Properties in Knoxville</h1>\n<p>&nbsp;</p>\n<p>I'm excited to share a curated selection of my rental properties located in the beautiful city of Knoxville, Tennessee. These homes, personally managed by me, offer a comfortable and welcoming living experience.</p>\n<p>&nbsp;</p>",
+  "propertyCard": [
+    {
+      "image": "./properties/cherry-grove-images/Front.jpg",
+      "title": "Cherry Grove",
+      "location": "Knoxville, TN",
+      "description": "Single family house with 4 Rooms for rent",
+      "link": "./properties/cherry-grove.html"
+    },
+    {
+      "image": "https://cdn.jsdelivr.net/gh/hsingh23/blunova@6d112cd68ddf00c529ddfd46db962dbf2cbc63c7/images/Front%20Image.jpg",
+      "title": "Creekhead Cove",
+      "location": "Knoxville, TN",
+      "description": "Single family house with 4 Rooms for rent",
+      "link": "/properties/creekhead.html"
+    },
+    {
+      "image": "https://cdn.jsdelivr.net/gh/hsingh23/blunova@1ff56fd0cc978f3577742e46be8d4314a43469c2/images/2413%20Chimney%20Ridge_House.jpg",
+      "title": "Chimney Ridge",
+      "location": "Knoxville, TN",
+      "description": "Single family house with 3 Rooms for rent",
+      "link": "/properties/chimney.html"
+    },
+    {
+      "image": "https://cdn.jsdelivr.net/gh/hsingh23/blunova@c8cdce71467b91badded52c843e33b73c1792964/images/628%20House.jpg",
+      "title": "Luttrell and 3rd",
+      "location": "Knoxville, TN",
+      "description": "2 (1 bed apartment), and 2 (2 bedroom apartment)",
+      "link": "/properties/luttrell.html"
+    }
+  ],
+  "footer": "© 2023 Blunova Properties. All rights reserved.",
+  "link": ["./about.html", "./contact.html"]
 }

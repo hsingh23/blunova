@@ -1,82 +1,82 @@
 {
-	"property-hero-content": "\n          <h1>Cherry Grove</h1>\n          <p>Knoxville, TN</p>\n        ",
-	"property-details": {
-		"property-description": "<h2>Property Overview</h2>\n<p>This charming retreat in Knoxville offers a cozy and comfortable stay. The property features modern amenities and is perfect for both short and long stays.</p>\n<p>&nbsp;</p>\n<p>The space includes a fully equipped kitchen, a spacious living area, and dedicated workspaces. The bedroom is designed for relaxation with a comfortable bed and ample storage.</p>\n<p>&nbsp;</p>\n<h2>Amenities</h2>\n<p>🍳 Fully equipped kitchen with modern appliances</p>\n<p>🛏️ Comfortable bedroom with premium linens</p>\n<p>💻 High-speed Wi-Fi and dedicated workspace</p>\n<p>📺 Smart TV with streaming services</p>\n<p>🧺 In-unit washer and dryer</p>\n<p>🚗 Free parking on premises</p>\n<p>❄️ Air conditioning and heating</p>\n<p>&nbsp;</p>\n<h2>Location</h2>\n<p>Located in a quiet neighborhood in Knoxville, this property is close to local attractions, restaurants, and shopping centers. Enjoy easy access to downtown Knoxville and the University of Tennessee.</p>",
-		"feature-list": "<ul>\n<li><strong>Bedrooms:</strong> 4</li>\n<li><strong>Bathrooms:</strong> 1.5 shared bathrooms, with the master bedroom having a private bathroom.</li>\n<li><strong>Pet Policy:</strong> Pets not allowed</li>\n</ul>"
-	},
-	"gallery-desc": "\n          <h2>Rooms</h2>\n          <p>\n            <strong> Each room below goes to airbnb which has availability and pricing information </strong>\n          </p>\n        ",
-	"airbnb-links": [
-		{
-			"link": "https://www.airbnb.com/rooms/1030589498253747656",
-			"image": "./rooms/3.webp"
-		},
-		{
-			"link": "https://www.airbnb.com/rooms/1030589992179067582",
-			"image": "./rooms/1.jpeg"
-		},
-		{
-			"link": "https://www.airbnb.com/rooms/1030589321409011455",
-			"image": "./rooms/2.webp"
-		},
-		{
-			"link": "https://www.airbnb.com/rooms/1010131515172519042",
-			"image": "./rooms/4.jpeg"
-		}
-	],
-	"pictures": [
-		{
-			"image": "./cherry-grove-images/Front_2.jpg"
-		},
-		{
-			"image": "./cherry-grove-images/Front.jpg"
-		},
-		{
-			"image": "./cherry-grove-images/Foyer.jpg"
-		},
-		{
-			"image": "./cherry-grove-images/Kitchen.jpg"
-		},
-		{
-			"image": "./cherry-grove-images/Kitchen_2.jpg"
-		},
-		{
-			"image": "./cherry-grove-images/Kitchen_3.jpg"
-		},
-		{
-			"image": "./cherry-grove-images/photo_10_2023-11-08_06-02-46.jpg"
-		},
-		{
-			"image": "./cherry-grove-images/photo_12_2023-11-08_06-02-46.jpg"
-		},
-		{
-			"image": "./cherry-grove-images/photo_13_2023-11-08_06-02-46.jpg"
-		},
-		{
-			"image": "./cherry-grove-images/photo_14_2023-11-08_06-02-46.jpg"
-		},
-		{
-			"image": "./cherry-grove-images/photo_2_2023-11-08_06-02-46.jpg"
-		},
-		{
-			"image": "./cherry-grove-images/photo_3_2023-11-08_06-02-46.jpg"
-		},
-		{
-			"image": "./cherry-grove-images/photo_4_2023-11-08_06-02-46.jpg"
-		},
-		{
-			"image": "./cherry-grove-images/photo_5_2023-11-08_06-02-46.jpg"
-		},
-		{
-			"image": "./cherry-grove-images/photo_6_2023-11-08_06-02-46.jpg"
-		},
-		{
-			"image": "./cherry-grove-images/photo_7_2023-11-08_06-02-46.jpg"
-		},
-		{
-			"image": "./cherry-grove-images/photo_8_2023-11-08_06-02-46.jpg"
-		},
-		{
-			"image": "./cherry-grove-images/photo_9_2023-11-08_06-02-46.jpg"
-		}
-	]
+  "property-hero-content": "\n          <h1>Cherry Grove</h1>\n          <p>Knoxville, TN</p>\n        ",
+  "property-details": {
+    "property-description": "<h2>Property Overview</h2>\n<p>This charming retreat in Knoxville offers a cozy and comfortable stay. The property features modern amenities and is perfect for both short and long stays.</p>\n<p>&nbsp;</p>\n<p>The space includes a fully equipped kitchen, a spacious living area, and dedicated workspaces. The bedroom is designed for relaxation with a comfortable bed and ample storage.</p>\n<p>&nbsp;</p>\n<h2>Amenities</h2>\n<p>🍳 Fully equipped kitchen with modern appliances</p>\n<p>🛏️ Comfortable bedroom with premium linens</p>\n<p>💻 High-speed Wi-Fi and dedicated workspace</p>\n<p>📺 Smart TV with streaming services</p>\n<p>🧺 In-unit washer and dryer</p>\n<p>🚗 Free parking on premises</p>\n<p>❄️ Air conditioning and heating</p>\n<p>&nbsp;</p>\n<h2>Location</h2>\n<p>Located in a quiet neighborhood in Knoxville, this property is close to local attractions, restaurants, and shopping centers. Enjoy easy access to downtown Knoxville and the University of Tennessee.</p>",
+    "feature-list": "<ul>\n<li><strong>Bedrooms:</strong> 4</li>\n<li><strong>Bathrooms:</strong> 1.5 shared bathrooms, with the master bedroom having a private bathroom.</li>\n<li><strong>Pet Policy:</strong> Pets not allowed</li>\n</ul>"
+  },
+  "gallery-desc": "\n          <h2>Rooms</h2>\n          <p>\n            <strong> Each room below goes to airbnb which has availability and pricing information </strong>\n          </p>\n        ",
+  "airbnbLinks": [
+    {
+      "link": "https://www.airbnb.com/rooms/1030589498253747656",
+      "image": "./rooms/3.webp"
+    },
+    {
+      "link": "https://www.airbnb.com/rooms/1030589992179067582",
+      "image": "./rooms/1.jpeg"
+    },
+    {
+      "link": "https://www.airbnb.com/rooms/1030589321409011455",
+      "image": "./rooms/2.webp"
+    },
+    {
+      "link": "https://www.airbnb.com/rooms/1010131515172519042",
+      "image": "./rooms/4.jpeg"
+    }
+  ],
+  "pictures": [
+    {
+      "image": "./cherry-grove-images/Front_2.jpg"
+    },
+    {
+      "image": "./cherry-grove-images/Front.jpg"
+    },
+    {
+      "image": "./cherry-grove-images/Foyer.jpg"
+    },
+    {
+      "image": "./cherry-grove-images/Kitchen.jpg"
+    },
+    {
+      "image": "./cherry-grove-images/Kitchen_2.jpg"
+    },
+    {
+      "image": "./cherry-grove-images/Kitchen_3.jpg"
+    },
+    {
+      "image": "./cherry-grove-images/photo_10_2023-11-08_06-02-46.jpg"
+    },
+    {
+      "image": "./cherry-grove-images/photo_12_2023-11-08_06-02-46.jpg"
+    },
+    {
+      "image": "./cherry-grove-images/photo_13_2023-11-08_06-02-46.jpg"
+    },
+    {
+      "image": "./cherry-grove-images/photo_14_2023-11-08_06-02-46.jpg"
+    },
+    {
+      "image": "./cherry-grove-images/photo_2_2023-11-08_06-02-46.jpg"
+    },
+    {
+      "image": "./cherry-grove-images/photo_3_2023-11-08_06-02-46.jpg"
+    },
+    {
+      "image": "./cherry-grove-images/photo_4_2023-11-08_06-02-46.jpg"
+    },
+    {
+      "image": "./cherry-grove-images/photo_5_2023-11-08_06-02-46.jpg"
+    },
+    {
+      "image": "./cherry-grove-images/photo_6_2023-11-08_06-02-46.jpg"
+    },
+    {
+      "image": "./cherry-grove-images/photo_7_2023-11-08_06-02-46.jpg"
+    },
+    {
+      "image": "./cherry-grove-images/photo_8_2023-11-08_06-02-46.jpg"
+    },
+    {
+      "image": "./cherry-grove-images/photo_9_2023-11-08_06-02-46.jpg"
+    }
+  ]
 }
