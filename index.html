@@ -117,7 +117,7 @@
         margin: 0 auto;
       }
 
-      .property-list {
+      .propertyList {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: 2rem;
@@ -127,20 +127,19 @@
         /* --mv-property: properties; */
       }
 
-      .property-card {
+      .propertyCard {
         /* --mv-list-item: true; */
         background-color: white;
         border-radius: 8px;
-        overflow: hidden;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         transition: transform 0.3s ease;
       }
 
-      .property-card:hover {
+      .propertyCard:hover {
         transform: translateY(-5px);
       }
 
-      .property-image {
+      .propertyImage {
         height: 200px;
         width: 100%;
         object-fit: cover;
@@ -148,7 +147,7 @@
         --mv-property: image;
       }
 
-      .property-details {
+      .propertyDetails {
         padding: 1rem;
       }
 
@@ -203,7 +202,7 @@
           font-size: 1rem;
         }
 
-        .property-list {
+        .propertyList {
           grid-template-columns: 1fr;
         }
       }
@@ -240,10 +239,10 @@
       <section id="properties">
         <h2>Featured Properties</h2>
 
-        <div class="property-list" mv-list>
-          <div class="property-card" mv-list-item property="propertyCard">
-            <img class="property-image" src="./properties/cherry-grove-images/Front.jpg" />
-            <div class="property-details">
+        <div class="propertyList" mv-list>
+          <div class="propertyCard" mv-list-item property="propertyCard">
+            <img class="propertyImage" src="./properties/cherry-grove-images/Front.jpg" />
+            <div class="propertyDetails">
               <h3 class="property-title">Cherry Grove</h3>
               <p class="property-location">Knoxville, TN</p>
               <p class="property-description">Single family house with 4 Rooms for rent</p>
