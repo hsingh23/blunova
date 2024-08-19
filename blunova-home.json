@@ -5,7 +5,7 @@
 			"./contact.html"
 		]
 	},
-	"sectionContent": "<h1>Exclusive Properties in Knoxville</h1>\n<p>I'm excited to share a curated selection of my rental properties located in the beautiful city of Knoxville, Tennessee. These homes, personally managed by me, offer a comfortable and welcoming living experience.</p>\n<p>&nbsp;</p>",
+	"sectionContent": "<h1>Exclusive Properties in Knoxville</h1>\n<p>&nbsp;</p>\n<p>I'm excited to share a curated selection of my rental properties located in the beautiful city of Knoxville, Tennessee. These homes, personally managed by me, offer a comfortable and welcoming living experience.</p>\n<p>&nbsp;</p>",
 	"property-card": [
 		{
 			"image": "./properties/cherry-grove-images/Front.jpg",
