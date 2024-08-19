@@ -43,6 +43,12 @@
         justify-content: space-between;
         align-items: center;
       }
+      .editingOnly {
+        display: none;
+      }
+      [mv-mode="edit"] .editingOnly {
+        display: inline;
+      }
 
       .logo {
         font-family: "Playfair Display", serif;
@@ -228,7 +234,8 @@
           </div>
           <div class="contact-form">
             <h2>Send Us a Message</h2>
-            <form-wrapper data-form-id="Emails-134e76">
+            <form-wrapper data-form-id="[formId]">
+              <span property="formId" class="editingOnly"></span>
               <form>
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required="" />
