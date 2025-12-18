@@ -19,7 +19,10 @@
       content="contact Blunova Properties, Knoxville rental inquiries, Tennessee property management contact, schedule viewing Knoxville, rental application Tennessee, Knoxville TN rentals"
     />
     <meta name="author" content="Blunova Properties" />
-    <meta name="contact:address" content="123 Main Street, Knoxville, TN 37902" />
+    <meta
+      name="contact:address"
+      content="123 Main Street, Knoxville, TN 37902"
+    />
     <meta name="contact:phone_number" content="(615) 555-0123" />
     <meta
       name="contact:office_hours"
@@ -1124,7 +1127,9 @@
             <a href="./index.html"><i class="fas fa-home"></i> Home</a>
           </li>
           <li>
-            <a href="./index.html#properties"><i class="fas fa-building"></i> Properties</a>
+            <a href="./index.html#properties"
+              ><i class="fas fa-building"></i> Properties</a
+            >
           </li>
           <li>
             <a href="./contact.html" aria-current="page"
@@ -1476,6 +1481,52 @@
           this.querySelector("i").classList.toggle("fa-bars");
           this.querySelector("i").classList.toggle("fa-times");
         });
+    </script>
+    <!-- Spam Filter Script -->
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const form = document.querySelector(".contact-form form");
+        if (form) {
+          form.addEventListener(
+            "submit",
+            (e) => {
+              const messageInput = document.getElementById("message");
+              if (!messageInput) return;
+
+              const message = messageInput.value.toLowerCase();
+              const spamKeywords = [
+                "pay per click",
+                "ppc",
+                "seo",
+                "thousands of clicks",
+                "keyword targeted",
+                "google's 1st page",
+                "google’s 1st page",
+                "organic listings",
+                "top position",
+                "banner technology",
+                "targeted visitors",
+                "search engine results",
+                "investment",
+                "marketing",
+                "optimization",
+              ];
+
+              const isSpam = spamKeywords.some((keyword) =>
+                message.includes(keyword)
+              );
+
+              if (isSpam) {
+                e.preventDefault();
+                e.stopPropagation();
+                e.stopImmediatePropagation();
+                return false;
+              }
+            },
+            true
+          ); // Capture phase to ensure we intercept first
+        }
+      });
     </script>
   </body>
 </html>
