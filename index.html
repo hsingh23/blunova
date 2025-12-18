@@ -708,9 +708,9 @@
 
       .features-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-        gap: 2rem;
-        max-width: 1200px;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2.5rem;
+        max-width: 1600px;
         margin: 0 auto;
       }
 
@@ -760,8 +760,10 @@
       /* Property List */
       .propertyList {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+        grid-template-columns: repeat(4, 1fr);
         gap: 2.5rem;
+        max-width: 1600px;
+        margin: 0 auto;
       }
 
       .propertyCard {
@@ -982,7 +984,7 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: 2rem;
-        max-width: 1200px;
+        max-width: 1500px;
         margin: 0 auto;
       }
 
@@ -1190,6 +1192,12 @@
 
       /* Responsive Design */
       @media (max-width: 1024px) {
+        .features-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .propertyList {
+          grid-template-columns: repeat(2, 1fr);
+        }
         .footer-content {
           grid-template-columns: repeat(2, 1fr);
         }
@@ -1254,6 +1262,9 @@
           padding: 3rem 1rem;
         }
 
+        .features-grid {
+          grid-template-columns: 1fr;
+        }
         .propertyList {
           grid-template-columns: 1fr;
           gap: 2rem;
@@ -1396,43 +1407,37 @@
           </a>
         </div>
         <div class="hero-stats">
-          <div class="footer-content">
-            <div class="footer-section footer-about">
-              <h3>About Blunova</h3>
-              <p>
-                Blunova Properties is dedicated to providing quality rental
-                homes in Nashville, Tennessee. Our mission is to offer
-                well-maintained, comfortable, and affordable single-family homes
-                with professional management and responsive service.
-              </p>
-            </div>
-            <div class="footer-section">
-              <h3>Contact</h3>
-              <div class="footer-contact-item">
-                <i class="fas fa-map-marker-alt"></i>
-                <span>123 Main Street, Nashville, TN 37203</span>
-              </div>
-              <div class="footer-contact-item">
-                <i class="fas fa-phone"></i>
-                <a href="tel:+16155550123">(615) 555-0123</a>
-              </div>
-              <div class="footer-contact-item">
-                <i class="fas fa-clock"></i>
-                <span
-                  >Office Hours:<br />Monday - Friday: 9:00 AM - 6:00 PM<br />Saturday:
-                  10:00 AM - 4:00 PM<br />Sunday: Closed</span
-                >
-              </div>
-            </div>
-            <div class="footer-section">
-              <h3>Quick Links</h3>
-              <ul class="footer-links">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./about.html">About</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-              </ul>
-            </div>
+          <div class="stat-item">
+            <div class="stat-number">10+</div>
+            <div class="stat-label">Happy Tenants</div>
           </div>
+          <div class="stat-item">
+            <div class="stat-number">4.8</div>
+            <div class="stat-label">Average Rating</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">24/7</div>
+            <div class="stat-label">Support Available</div>
+          </div>
+        </div>
+      </div>
+      <a
+        href="#properties"
+        class="scroll-indicator"
+        aria-label="Scroll to properties"
+      >
+        <i class="fas fa-chevron-down"></i>
+      </a>
+    </section>
+
+    <!-- Trust Badges -->
+    <section class="trust-badges" aria-label="Trust indicators">
+      <div class="trust-badges-inner">
+        <div class="trust-badge">
+          <i class="fas fa-shield-alt"></i>
+          <span>Verified Properties</span>
+        </div>
+        <div class="trust-badge">
           <i class="fas fa-check-circle"></i>
           <span>Background Checked</span>
         </div>
