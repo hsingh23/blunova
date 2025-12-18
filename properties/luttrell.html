@@ -390,15 +390,22 @@
       /* Property Hero Section */
       .property-hero {
         min-height: 70vh;
-        background-image: url("./luttrell-images/Front.jpg");
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
         display: flex;
         align-items: flex-end;
         justify-content: center;
         color: white;
         position: relative;
+        overflow: hidden;
+      }
+
+      .hero-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 0;
       }
 
       .property-hero::before {
@@ -413,11 +420,12 @@
           rgba(26, 54, 93, 0.3) 0%,
           rgba(26, 54, 93, 0.8) 100%
         );
+        z-index: 1;
       }
 
       .property-hero-content {
         position: relative;
-        z-index: 1;
+        z-index: 2;
         padding: 4rem 2rem;
         width: 100%;
         max-width: 1400px;
@@ -1267,6 +1275,7 @@
     </nav>
 
     <section class="property-hero" aria-label="Luttrell Property">
+      <img property="heroImage" src="./luttrell-images/Front.jpg" class="hero-background" alt="Hero Image" />
       <div class="property-hero-content">
         <span class="property-badge">Available Now</span>
         <h1 class="tinymce" property>Luttrell</h1>
