@@ -3,18 +3,165 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>Contact Us | Blunova Properties - Nashville, TN Rentals</title>
+    <meta
+      name="title"
+      content="Contact Us | Blunova Properties - Nashville, TN Rentals"
+    />
+    <meta
+      name="description"
+      content="Get in touch with Blunova Properties for rental inquiries, property viewings, or maintenance requests. Located at 123 Main Street, Nashville, TN. Call (615) 555-0123. Office hours: Mon-Fri 9AM-6PM, Sat 10AM-4PM."
+    />
+    <meta
+      name="keywords"
+      content="contact Blunova Properties, Nashville rental inquiries, Tennessee property management contact, schedule viewing Nashville, rental application Tennessee, Nashville TN rentals"
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta
+      property="og:title"
+      content="Contact Us | Blunova Properties - Nashville, TN Rentals"
+    />
+    <meta
+      property="og:description"
+      content="Get in touch with Blunova Properties for rental inquiries and property viewings. Located at 123 Main Street, Nashville, TN. Call (615) 555-0123."
+    />
+
+    <!-- Twitter -->
+    <meta
+      name="twitter:title"
+      content="Contact Us | Blunova Properties - Nashville, TN Rentals"
+    />
+    <meta
+      name="twitter:description"
+      content="Get in touch with Blunova Properties for rental inquiries and property viewings. Located at 123 Main Street, Nashville, TN. Call (615) 555-0123."
+    />
+
+    <!-- Geographic Meta Tags -->
+    <meta name="geo.region" content="US-TN" />
+    <meta name="geo.placename" content="Nashville" />
+    <meta name="geo.position" content="36.1627;-86.7816" />
+    <meta name="ICBM" content="36.1627, -86.7816" />
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ContactPage",
+        "name": "Contact Blunova Properties",
+        "description": "Contact page for Blunova Properties rental inquiries in Nashville, Tennessee",
+        "url": "https://blunovainc.com/contact.html",
+        "mainEntity": {
+          "@type": "RealEstateAgent",
+          "name": "Blunova Properties",
+          "url": "https://blunovainc.com",
+          "telephone": "+1-615-555-0123",
+          "email": "info@blunovainc.com",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "123 Main Street",
+            "addressLocality": "Nashville",
+            "addressRegion": "TN",
+            "postalCode": "37203",
+            "addressCountry": "US"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "36.1627",
+            "longitude": "-86.7816"
+          },
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+              ],
+              "opens": "09:00",
+              "closes": "18:00"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Saturday"],
+              "opens": "10:00",
+              "closes": "16:00"
+            }
+          ]
+        }
+      }
+    </script>
+
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://blunovainc.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Contact",
+            "item": "https://blunovainc.com/contact.html"
+          }
+        ]
+      }
+    </script>
+
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+
     <meta name="track" content="Clp49d13KT6Xk0tiz" />
-    <title>Contact Blunova Properties | Luxury Rentals in Tennessee</title>
-    <script src="https://web.celeritytechconsulting.com/form-wrapper.js" defer></script>
+
+    <!-- Stylesheets -->
+    <script
+      src="https://web.celeritytechconsulting.com/form-wrapper.js"
+      defer
+    ></script>
     <link rel="stylesheet" href="https://get.mavo.io/mavo.min.css" />
     <script src="https://get.mavo.io/mavo.min.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;family=Playfair+Display:wght@400;700&amp;display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
     <style>
       :root {
-        --primary-color: #0066cc;
-        --secondary-color: #f8f8f8;
-        --text-color: #333;
-        --accent-color: #ff9900;
+        --primary-color: #1a365d;
+        --primary-light: #2c5282;
+        --secondary-color: #f7fafc;
+        --text-color: #2d3748;
+        --text-light: #718096;
+        --accent-color: #ed8936;
+        --accent-hover: #dd6b20;
+        --white: #ffffff;
+        --success-color: #48bb78;
+        --error-color: #e53e3e;
+        --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.12);
+        --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+        --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.15);
+        --shadow-xl: 0 20px 40px rgba(0, 0, 0, 0.2);
+        --border-radius: 12px;
+        --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      .mv-bar.mv-ui {
+        z-index: 1100 !important;
       }
 
       * {
@@ -23,176 +170,906 @@
         padding: 0;
       }
 
-      body {
-        font-family: "Montserrat", sans-serif;
-        line-height: 1.6;
-        color: var(--text-color);
+      html {
+        scroll-behavior: smooth;
       }
 
-      header {
-        background-color: var(--primary-color);
+      body {
+        font-family: "Montserrat", sans-serif;
+        line-height: 1.7;
+        color: var(--text-color);
+        background-color: var(--secondary-color);
+      }
+
+      /* Skip Link for Accessibility */
+      .skip-link {
+        position: absolute;
+        top: -40px;
+        left: 0;
+        background: var(--primary-color);
         color: white;
-        padding: 1rem;
+        padding: 8px;
+        z-index: 9999;
+        transition: top 0.3s;
+      }
+
+      .skip-link:focus {
+        top: 0;
+      }
+
+      /* Mavo Editing Styles */
+      .editingOnly {
+        display: none;
+      }
+
+      [mv-mode="edit"] .editingOnly {
+        display: inline;
+      }
+
+      /* Header Styles */
+      header {
+        background: linear-gradient(
+          135deg,
+          var(--primary-color) 0%,
+          var(--primary-light) 100%
+        );
+        color: white;
+        padding: 1rem 2rem;
         position: fixed;
-        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
         z-index: 1000;
+        backdrop-filter: blur(10px);
+        box-shadow: var(--shadow-md);
       }
 
       nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
-      }
-      .editingOnly {
-        display: none;
-      }
-      [mv-mode="edit"] .editingOnly {
-        display: inline;
+        max-width: 1400px;
+        margin: 0 auto;
       }
 
       .logo {
         font-family: "Playfair Display", serif;
-        font-size: 1.5rem;
+        font-size: 1.75rem;
         font-weight: 700;
+        letter-spacing: 0.5px;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        text-decoration: none;
+        color: white;
+      }
+
+      .logo-icon {
+        width: 40px;
+        height: 40px;
+        background: var(--accent-color);
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.25rem;
       }
 
       .nav-links {
         display: flex;
         list-style: none;
-      }
-
-      .nav-links li {
-        margin-left: 1rem;
+        gap: 0.5rem;
       }
 
       .nav-links a {
         color: white;
         text-decoration: none;
-        transition: color 0.3s ease;
+        padding: 0.6rem 1.2rem;
+        border-radius: 8px;
+        transition: var(--transition);
+        font-weight: 500;
+        font-size: 0.95rem;
+        position: relative;
+        overflow: hidden;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .nav-links a::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background-color: var(--accent-color);
+        transition: var(--transition);
+      }
+
+      .nav-links a:hover::before,
+      .nav-links a[aria-current="page"]::before {
+        width: 80%;
       }
 
       .nav-links a:hover {
-        color: var(--accent-color);
+        background-color: rgba(255, 255, 255, 0.1);
       }
 
+      .nav-links a[aria-current="page"] {
+        background-color: rgba(255, 255, 255, 0.15);
+      }
+
+      /* Mobile Menu */
+      .mobile-menu-btn {
+        display: none;
+        background: none;
+        border: none;
+        color: white;
+        font-size: 1.5rem;
+        cursor: pointer;
+      }
+
+      /* Main Content */
       main {
-        padding-top: 5rem;
+        padding-top: 80px;
       }
 
+      /* Contact Hero Section */
       .contact-hero {
-        background-image: url("https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+        background-image: linear-gradient(
+            135deg,
+            rgba(26, 54, 93, 0.9) 0%,
+            rgba(44, 82, 130, 0.85) 100%
+          ),
+          url("https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
         background-size: cover;
         background-position: center;
-        height: 40vh;
+        min-height: 50vh;
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
         color: white;
-        position: relative;
+        padding: 4rem 2rem;
       }
 
-      .contact-hero::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: rgba(0, 0, 0, 0.5);
+      .hero-content {
+        max-width: 700px;
+        animation: fadeInUp 0.8s ease-out;
+      }
+
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .hero-badge {
+        display: inline-block;
+        background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+        padding: 0.5rem 1.25rem;
+        border-radius: 50px;
+        font-size: 0.9rem;
+        font-weight: 500;
+        margin-bottom: 1.5rem;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+      }
+
+      .hero-badge i {
+        color: var(--accent-color);
+        margin-right: 0.5rem;
       }
 
       .contact-hero h1 {
         font-family: "Playfair Display", serif;
-        font-size: 3rem;
-        position: relative;
-        z-index: 1;
+        font-size: clamp(2.5rem, 5vw, 3.5rem);
+        margin-bottom: 1rem;
+        font-weight: 700;
+        text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
       }
 
+      .contact-hero p {
+        font-size: clamp(1rem, 2vw, 1.2rem);
+        opacity: 0.95;
+        line-height: 1.8;
+        font-weight: 300;
+      }
+
+      /* Breadcrumb */
+      .breadcrumb {
+        background: var(--white);
+        padding: 1rem 2rem;
+        box-shadow: var(--shadow-sm);
+      }
+
+      .breadcrumb-inner {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 0.9rem;
+      }
+
+      .breadcrumb a {
+        color: var(--primary-color);
+        text-decoration: none;
+        transition: var(--transition);
+      }
+
+      .breadcrumb a:hover {
+        color: var(--accent-color);
+      }
+
+      .breadcrumb span {
+        color: var(--text-light);
+      }
+
+      .breadcrumb i {
+        color: var(--text-light);
+        font-size: 0.75rem;
+      }
+
+      /* Contact Content Section */
       .contact-content {
-        max-width: 800px;
-        margin: 2rem auto;
-        padding: 0 1rem;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 4rem 2rem;
       }
 
       .contact-grid {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1.5fr;
+        gap: 3rem;
+      }
+
+      /* Contact Info Card */
+      .contact-info-wrapper {
+        display: flex;
+        flex-direction: column;
         gap: 2rem;
       }
 
-      .contact-info h2,
+      .contact-info {
+        background: var(--white);
+        border-radius: var(--border-radius);
+        padding: 2.5rem;
+        box-shadow: var(--shadow-md);
+      }
+
+      .contact-info h2 {
+        font-family: "Playfair Display", serif;
+        font-size: 1.75rem;
+        margin-bottom: 1.5rem;
+        color: var(--primary-color);
+        position: relative;
+        display: inline-block;
+      }
+
+      .contact-info h2::after {
+        content: "";
+        position: absolute;
+        bottom: -8px;
+        left: 0;
+        width: 60px;
+        height: 3px;
+        background: linear-gradient(
+          90deg,
+          var(--accent-color),
+          var(--primary-color)
+        );
+        border-radius: 2px;
+      }
+
+      .contact-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+        padding-bottom: 1.5rem;
+        border-bottom: 1px solid #e2e8f0;
+      }
+
+      .contact-item:last-child {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        border-bottom: none;
+      }
+
+      .contact-icon {
+        width: 50px;
+        height: 50px;
+        background: linear-gradient(
+          135deg,
+          var(--primary-color),
+          var(--primary-light)
+        );
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 1.25rem;
+        flex-shrink: 0;
+      }
+
+      .contact-details h3 {
+        font-size: 1rem;
+        color: var(--primary-color);
+        margin-bottom: 0.25rem;
+        font-weight: 600;
+      }
+
+      .contact-details p,
+      .contact-details a {
+        color: var(--text-color);
+        text-decoration: none;
+        line-height: 1.6;
+      }
+
+      .contact-details a:hover {
+        color: var(--accent-color);
+      }
+
+      /* Quick Contact Card */
+      .quick-contact {
+        background: linear-gradient(
+          135deg,
+          var(--primary-color) 0%,
+          var(--primary-light) 100%
+        );
+        border-radius: var(--border-radius);
+        padding: 2rem;
+        color: white;
+        text-align: center;
+      }
+
+      .quick-contact h3 {
+        font-family: "Playfair Display", serif;
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+      }
+
+      .quick-contact p {
+        opacity: 0.9;
+        margin-bottom: 1.5rem;
+        font-size: 0.95rem;
+      }
+
+      .quick-contact-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        background: var(--accent-color);
+        color: white;
+        padding: 0.875rem 1.75rem;
+        border-radius: 50px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: var(--transition);
+      }
+
+      .quick-contact-btn:hover {
+        background: var(--accent-hover);
+        transform: translateY(-2px);
+        box-shadow: var(--shadow-lg);
+      }
+
+      /* Contact Form */
+      .contact-form {
+        background: var(--white);
+        border-radius: var(--border-radius);
+        padding: 2.5rem;
+        box-shadow: var(--shadow-md);
+      }
+
       .contact-form h2 {
         font-family: "Playfair Display", serif;
-        font-size: 2rem;
-        margin-bottom: 1rem;
+        font-size: 1.75rem;
+        margin-bottom: 0.5rem;
         color: var(--primary-color);
       }
 
-      .contact-info p {
-        margin-bottom: 1rem;
+      .form-subtitle {
+        color: var(--text-light);
+        margin-bottom: 2rem;
+        font-size: 0.95rem;
       }
 
       .contact-form form {
         display: grid;
-        gap: 1rem;
+        gap: 1.5rem;
+      }
+
+      .form-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+      }
+
+      .form-group {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      .form-group.full-width {
+        grid-column: 1 / -1;
       }
 
       .contact-form label {
-        font-weight: bold;
+        font-weight: 600;
+        font-size: 0.9rem;
+        color: var(--text-color);
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .contact-form label i {
+        color: var(--primary-light);
+        font-size: 0.85rem;
+      }
+
+      .required-star {
+        color: var(--error-color);
       }
 
       .contact-form input,
-      .contact-form textarea {
+      .contact-form textarea,
+      .contact-form select {
         width: 100%;
-        padding: 0.5rem;
-        border: 1px solid #ccc;
-        border-radius: 4px;
+        padding: 0.875rem 1rem;
+        border: 2px solid #e2e8f0;
+        border-radius: 8px;
+        font-family: inherit;
+        font-size: 1rem;
+        color: var(--text-color);
+        background-color: var(--white);
+        transition: var(--transition);
       }
 
-      .contact-form button {
-        background-color: var(--primary-color);
+      .contact-form input:focus,
+      .contact-form textarea:focus,
+      .contact-form select:focus {
+        outline: none;
+        border-color: var(--primary-light);
+        box-shadow: 0 0 0 3px rgba(44, 82, 130, 0.1);
+      }
+
+      .contact-form input::placeholder,
+      .contact-form textarea::placeholder {
+        color: var(--text-light);
+      }
+
+      .contact-form textarea {
+        resize: vertical;
+        min-height: 150px;
+      }
+
+      .contact-form select {
+        cursor: pointer;
+        appearance: none;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%23718096'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-position: right 1rem center;
+        background-size: 1rem;
+        padding-right: 2.5rem;
+      }
+
+      .submit-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.75rem;
+        background: linear-gradient(
+          135deg,
+          var(--primary-color),
+          var(--primary-light)
+        );
         color: white;
         border: none;
-        padding: 0.75rem 1.5rem;
-        border-radius: 4px;
+        padding: 1rem 2rem;
+        border-radius: 8px;
         cursor: pointer;
-        transition: background-color 0.3s ease;
+        transition: var(--transition);
+        font-family: inherit;
+        font-size: 1rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        width: 100%;
       }
 
-      .contact-form button:hover {
-        background-color: #0052a3;
+      .submit-btn:hover {
+        background: linear-gradient(
+          135deg,
+          var(--primary-light),
+          var(--primary-color)
+        );
+        box-shadow: var(--shadow-lg);
+        transform: translateY(-2px);
+      }
+
+      .submit-btn i {
+        transition: var(--transition);
+      }
+
+      .submit-btn:hover i {
+        transform: translateX(5px);
+      }
+
+      .form-note {
+        font-size: 0.85rem;
+        color: var(--text-light);
+        text-align: center;
+        margin-top: 1rem;
+      }
+
+      .form-note i {
+        color: var(--success-color);
+        margin-right: 0.25rem;
+      }
+
+      /* Map Section */
+      .map-section {
+        padding: 0 2rem 4rem;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: none;
+      }
+
+      .map-section h2 {
+        font-family: "Playfair Display", serif;
+        font-size: 1.75rem;
+        color: var(--primary-color);
+        margin-bottom: 1.5rem;
+        text-align: center;
       }
 
       .map-container {
-        margin-top: 2rem;
-        height: 300px;
+        height: 400px;
         width: 100%;
-        background-color: #eee;
+        background-color: #e2e8f0;
+        border-radius: var(--border-radius);
+        overflow: hidden;
+        box-shadow: var(--shadow-md);
         display: flex;
         justify-content: center;
         align-items: center;
-        font-style: italic;
-        color: #666;
       }
 
-      footer {
-        background-color: var(--primary-color);
-        color: white;
+      .map-container iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+
+      .map-placeholder {
         text-align: center;
-        padding: 1rem;
-        margin-top: 2rem;
+        color: var(--text-light);
+      }
+
+      .map-placeholder i {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        color: var(--primary-light);
+      }
+
+      /* FAQ Section */
+      .faq-section {
+        background: var(--white);
+        padding: 4rem 2rem;
+      }
+
+      .faq-inner {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      .faq-section h2 {
+        font-family: "Playfair Display", serif;
+        font-size: 2rem;
+        color: var(--primary-color);
+        text-align: center;
+        margin-bottom: 2.5rem;
+        position: relative;
+        display: inline-block;
+        width: 100%;
+      }
+
+      .faq-section h2::after {
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80px;
+        height: 4px;
+        background: linear-gradient(
+          90deg,
+          var(--accent-color),
+          var(--primary-color)
+        );
+        border-radius: 2px;
+      }
+
+      .faq-item {
+        background: var(--secondary-color);
+        border-radius: var(--border-radius);
+        padding: 1.5rem;
+        margin-bottom: 1rem;
+        transition: var(--transition);
+      }
+
+      .faq-item:hover {
+        box-shadow: var(--shadow-md);
+      }
+
+      .faq-question {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        font-weight: 600;
+        color: var(--primary-color);
+        font-size: 1.05rem;
+      }
+
+      .faq-question i {
+        color: var(--accent-color);
+        font-size: 1.25rem;
+      }
+
+      .faq-answer {
+        margin-top: 0.75rem;
+        padding-left: 2.25rem;
+        color: var(--text-color);
+        line-height: 1.7;
+      }
+
+      /* Footer */
+      footer {
+        background: linear-gradient(
+          135deg,
+          var(--primary-color) 0%,
+          #0f2744 100%
+        );
+        color: white;
+        padding: 4rem 2rem 2rem;
+      }
+
+      .footer-content {
+        max-width: 1400px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        gap: 3rem;
+      }
+
+      .footer-section h3 {
+        font-family: "Playfair Display", serif;
+        font-size: 1.25rem;
+        margin-bottom: 1.5rem;
+        position: relative;
+        display: inline-block;
+      }
+
+      .footer-section h3::after {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        width: 50px;
+        height: 2px;
+        background-color: var(--accent-color);
+      }
+
+      .footer-about p {
+        opacity: 0.9;
+        line-height: 1.8;
+        margin-bottom: 1.5rem;
+      }
+
+      .footer-contact-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 0.75rem;
+        margin-bottom: 1rem;
+        opacity: 0.9;
+      }
+
+      .footer-contact-item i {
+        color: var(--accent-color);
+        margin-top: 0.25rem;
+      }
+
+      .footer-links {
+        list-style: none;
+      }
+
+      .footer-links li {
+        margin-bottom: 0.75rem;
+      }
+
+      .footer-links a {
+        color: white;
+        text-decoration: none;
+        opacity: 0.9;
+        transition: var(--transition);
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .footer-links a:hover {
+        opacity: 1;
+        color: var(--accent-color);
+        transform: translateX(5px);
+      }
+
+      .social-links {
+        display: flex;
+        gap: 1rem;
+        margin-top: 1.5rem;
+      }
+
+      .social-links a {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        transition: var(--transition);
+        font-size: 1.1rem;
+      }
+
+      .social-links a:hover {
+        background-color: var(--accent-color);
+        transform: translateY(-3px);
+      }
+
+      .footer-bottom {
+        max-width: 1400px;
+        margin: 3rem auto 0;
+        padding-top: 2rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+        opacity: 0.8;
+        font-size: 0.9rem;
+      }
+
+      .footer-legal-links {
+        display: flex;
+        gap: 2rem;
+      }
+
+      .footer-legal-links a {
+        color: white;
+        text-decoration: none;
+        opacity: 0.8;
+        transition: var(--transition);
+      }
+
+      .footer-legal-links a:hover {
+        opacity: 1;
+        color: var(--accent-color);
+      }
+
+      /* Responsive Design */
+      @media (max-width: 1024px) {
+        .footer-content {
+          grid-template-columns: repeat(2, 1fr);
+        }
       }
 
       @media (max-width: 768px) {
+        header {
+          padding: 1rem;
+        }
+
+        .logo {
+          font-size: 1.25rem;
+        }
+
+        .nav-links {
+          display: none;
+          position: absolute;
+          top: 100%;
+          left: 0;
+          right: 0;
+          background: var(--primary-color);
+          flex-direction: column;
+          padding: 1rem;
+          box-shadow: var(--shadow-lg);
+        }
+
+        .nav-links.active {
+          display: flex;
+        }
+
+        .nav-links li {
+          margin: 0;
+        }
+
+        .nav-links a {
+          padding: 1rem;
+          border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+          display: flex;
+        }
+
+        .mobile-menu-btn {
+          display: block;
+        }
+
         .contact-grid {
           grid-template-columns: 1fr;
         }
+
+        .form-row {
+          grid-template-columns: 1fr;
+        }
+
+        .contact-content {
+          padding: 2rem 1rem;
+        }
+
+        .footer-content {
+          grid-template-columns: 1fr;
+          gap: 2rem;
+        }
+
+        .footer-bottom {
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .footer-legal-links {
+          justify-content: center;
+        }
+
+        .contact-hero {
+          min-height: 40vh;
+        }
+      }
+
+      /* Animations */
+      .fade-in {
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeInUp 0.6s ease-out forwards;
+      }
+
+      .fade-in-delay-1 {
+        animation-delay: 0.1s;
+      }
+      .fade-in-delay-2 {
+        animation-delay: 0.2s;
+      }
+      .fade-in-delay-3 {
+        animation-delay: 0.3s;
       }
     </style>
 
     <!-- Google tag (gtag.js) -->
-    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-V0GW25P48Z"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-V0GW25P48Z"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
@@ -202,68 +1079,406 @@
       gtag("config", "G-V0GW25P48Z");
     </script>
   </head>
-  <body mv-plugins="tinymce" mv-app="blunova-contact" mv-storage="https://github.com/hsingh23/blunova" mv-bar="no-login" autosave="3" mv-upload-path="pictures">
-    <header>
-      <nav>
-        <div class="logo">Blunova Properties</div>
+  <body
+    mv-plugins="tinymce"
+    mv-app="blunova-contact"
+    mv-storage="https://github.com/hsingh23/blunova"
+    mv-bar="no-login"
+    autosave="3"
+    mv-upload-path="pictures"
+  >
+    <!-- Skip Link for Accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header role="banner">
+      <nav role="navigation" aria-label="Main navigation">
+        <a href="/" class="logo" aria-label="Blunova Properties Home">
+          <span class="logo-icon">🏠</span>
+          Blunova Properties
+        </a>
+        <button
+          class="mobile-menu-btn"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
         <ul class="nav-links">
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./about.html">About</a></li>
-          <li><a href="./contact.html">Contact</a></li>
+          <li>
+            <a href="./index.html"><i class="fas fa-home"></i> Home</a>
+          </li>
+          <li>
+            <a href="./about.html"><i class="fas fa-info-circle"></i> About</a>
+          </li>
+          <li>
+            <a href="./contact.html" aria-current="page"
+              ><i class="fas fa-envelope"></i> Contact</a
+            >
+          </li>
         </ul>
       </nav>
     </header>
 
-    <main>
-      <section class="contact-hero">
-        <h1>Contact Us</h1>
+    <main id="main-content" role="main">
+      <!-- Hero Section -->
+      <section class="contact-hero" aria-label="Contact page header">
+        <div class="hero-content">
+          <span class="hero-badge">
+            <i class="fas fa-headset"></i> We're Here to Help
+          </span>
+          <h1>Get in Touch</h1>
+          <p>
+            Have questions about our properties or ready to schedule a viewing?
+            Our team is here to assist you every step of the way.
+          </p>
+        </div>
       </section>
 
+      <!-- Breadcrumb -->
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <div class="breadcrumb-inner">
+          <a href="./index.html">Home</a>
+          <i class="fas fa-chevron-right"></i>
+          <span aria-current="page">Contact</span>
+        </div>
+      </nav>
+
+      <!-- Contact Content -->
       <section class="contact-content">
         <div class="contact-grid">
-          <div class="contact-info tinymce" property="contactInfo">
-            <h2>Get in Touch</h2>
-            <p><strong>Address:</strong> 123 Main Street, Nashville, TN 37203</p>
-            <p><strong>Phone:</strong> (615) 555-0123</p>
-            <p>
-              <strong>Office Hours:</strong><br />
-              Monday - Friday: 9:00 AM - 6:00 PM<br />
-              Saturday: 10:00 AM - 4:00 PM<br />
-              Sunday: Closed
-            </p>
+          <!-- Contact Info Column -->
+          <div class="contact-info-wrapper">
+            <div class="contact-info tinymce" property="contactInfo">
+              <h2>Contact Information</h2>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="contact-details">
+                  <h3>Our Location</h3>
+                  <p>Knoxville, Tennessee</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-phone-alt"></i>
+                </div>
+                <div class="contact-details">
+                  <h3>Phone</h3>
+                  <a href="tel:+18655550123">(865) 555-0123</a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-details">
+                  <h3>Email</h3>
+                  <a href="mailto:info@blunovainc.com">info@blunovainc.com</a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-clock"></i>
+                </div>
+                <div class="contact-details">
+                  <h3>Office Hours</h3>
+                  <p>
+                    Monday – Friday: 9:00 AM – 5:00 PM<br />
+                    Saturday – Sunday: By Appointment
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Quick Contact Card -->
+            <div class="quick-contact">
+              <h3>Need Immediate Assistance?</h3>
+              <p>
+                For urgent maintenance requests or time-sensitive inquiries,
+                give us a call directly.
+              </p>
+              <a href="tel:+18655550123" class="quick-contact-btn">
+                <i class="fas fa-phone"></i> Call Now
+              </a>
+            </div>
           </div>
-          <div class="contact-form">
+
+          <!-- Contact Form Column -->
+          <div class="contact-form fade-in">
             <h2>Send Us a Message</h2>
+            <p class="form-subtitle">
+              Fill out the form below and we'll get back to you within 24 hours.
+            </p>
+
             <form-wrapper data-form-id="[formId]">
               <span property="formId" class="editingOnly"></span>
               <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required="" />
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="name">
+                      <i class="fas fa-user"></i> Full Name
+                      <span class="required-star">*</span>
+                    </label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      placeholder="John Smith"
+                      required
+                    />
+                  </div>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required="" />
+                  <div class="form-group">
+                    <label for="email">
+                      <i class="fas fa-envelope"></i> Email Address
+                      <span class="required-star">*</span>
+                    </label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="john@example.com"
+                      required
+                    />
+                  </div>
+                </div>
 
-                <label for="phone">Phone:</label>
-                <input type="tel" id="phone" name="phone" />
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="phone">
+                      <i class="fas fa-phone"></i> Phone Number
+                    </label>
+                    <input
+                      type="tel"
+                      id="phone"
+                      name="phone"
+                      placeholder="(865) 555-0123"
+                    />
+                  </div>
 
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required=""></textarea>
+                  <div class="form-group">
+                    <label for="inquiry-type">
+                      <i class="fas fa-question-circle"></i> Inquiry Type
+                    </label>
+                    <select id="inquiry-type" name="inquiry-type">
+                      <option value="">Select an option</option>
+                      <option value="rental-inquiry">Rental Inquiry</option>
+                      <option value="schedule-viewing">
+                        Schedule a Viewing
+                      </option>
+                      <option value="application">Application Question</option>
+                      <option value="maintenance">Maintenance Request</option>
+                      <option value="general">General Question</option>
+                    </select>
+                  </div>
+                </div>
 
-                <button type="submit">Send Message</button>
+                <div class="form-group full-width">
+                  <label for="property-interest">
+                    <i class="fas fa-home"></i> Property of Interest
+                  </label>
+                  <select id="property-interest" name="property-interest">
+                    <option value="">Select a property (optional)</option>
+                    <option value="cherry-grove">
+                      Cherry Grove - Knoxville, TN
+                    </option>
+                    <option value="other">Other / Not Sure</option>
+                  </select>
+                </div>
+
+                <div class="form-group full-width">
+                  <label for="message">
+                    <i class="fas fa-comment-alt"></i> Your Message
+                    <span class="required-star">*</span>
+                  </label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    placeholder="Tell us how we can help you. Include any specific questions about properties, availability, lease terms, or anything else you'd like to know."
+                    required
+                  ></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">
+                  <i class="fas fa-paper-plane"></i> Send Message
+                </button>
               </form>
             </form-wrapper>
+
+            <p class="form-note">
+              <i class="fas fa-shield-alt"></i> Your information is secure and
+              will never be shared with third parties.
+            </p>
           </div>
+        </div>
+      </section>
+
+      <!-- Map Section -->
+      <section class="map-section" aria-label="Location map">
+        <h2>Find Us in Knoxville</h2>
+        <div class="map-container">
+          <!-- Replace with actual Google Maps embed or keep placeholder -->
+          <div class="map-placeholder">
+            <i class="fas fa-map-marked-alt"></i>
+            <p>
+              Interactive map coming soon<br /><small
+                >Serving the greater Knoxville, TN area</small
+              >
+            </p>
+          </div>
+          <!-- Uncomment and add your Google Maps embed code here:
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d103089.89563901015!2d-84.01499373281249!3d35.96063440000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885c17f6a7fe683f%3A0x5fa1469b93f67086!2sKnoxville%2C%20TN!5e0!3m2!1sen!2sus!4v1234567890"
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Blunova Properties location in Knoxville, Tennessee">
+          </iframe>
+          -->
+        </div>
+      </section>
+
+      <!-- FAQ Section -->
+      <section class="faq-section" aria-labelledby="faq-heading">
+        <div class="faq-inner">
+          <h2 id="faq-heading">Frequently Asked Questions</h2>
+
+          <article class="faq-item" mv-list-item property="faqItem">
+            <div class="faq-question">
+              <i class="fas fa-question-circle"></i>
+              <span property="question"
+                >How quickly can I schedule a property viewing?</span
+              >
+            </div>
+            <p class="faq-answer" property="answer">
+              We typically respond to viewing requests within 24 hours. In many
+              cases, we can schedule same-day or next-day viewings depending on
+              availability.
+            </p>
+          </article>
         </div>
       </section>
     </main>
 
-    <footer>
-      <p>© 2023 Blunova Properties. All rights reserved.</p>
-      <p>
-        <a href="./privacy-policy.html" style="color: white">Privacy Policy</a>
-        |
-        <a href="./terms-of-service.html" style="color: white">Terms of Service</a>
-      </p>
+    <footer role="contentinfo">
+      <div class="footer-content">
+        <div class="footer-section footer-about">
+          <h3>About Blunova Properties</h3>
+          <p>
+            We're a locally-owned property management company dedicated to
+            providing quality rental homes in Knoxville, Tennessee. Our mission
+            is simple: make renting easy, transparent, and enjoyable for
+            everyone.
+          </p>
+          <div class="social-links">
+            <a
+              href="https://facebook.com/blunovaproperties"
+              aria-label="Follow us on Facebook"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a
+              href="https://instagram.com/blunovaproperties"
+              aria-label="Follow us on Instagram"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              href="https://linkedin.com/company/blunovaproperties"
+              aria-label="Connect with us on LinkedIn"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li>
+              <a href="./index.html"
+                ><i class="fas fa-chevron-right"></i> Home</a
+              >
+            </li>
+            <li>
+              <a href="./about.html"
+                ><i class="fas fa-chevron-right"></i> About Us</a
+              >
+            </li>
+            <li>
+              <a href="./index.html#properties"
+                ><i class="fas fa-chevron-right"></i> Available Rentals</a
+              >
+            </li>
+            <li>
+              <a href="./contact.html"
+                ><i class="fas fa-chevron-right"></i> Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <div class="footer-contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Knoxville, Tennessee</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fas fa-phone"></i>
+            <a
+              href="tel:+18655550123"
+              style="color: white; text-decoration: none"
+              >(865) 555-0123</a
+            >
+          </div>
+          <div class="footer-contact-item">
+            <i class="fas fa-envelope"></i>
+            <a
+              href="mailto:info@blunovainc.com"
+              style="color: white; text-decoration: none"
+              >info@blunovainc.com</a
+            >
+          </div>
+          <div class="footer-contact-item">
+            <i class="fas fa-clock"></i>
+            <span>Mon–Fri: 9AM – 5PM</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Blunova Properties. All rights reserved.</p>
+        <div class="footer-legal-links">
+          <a href="./privacy-policy.html">Privacy Policy</a>
+          <a href="./terms-of-service.html">Terms of Service</a>
+          <a href="./fair-housing.html">Fair Housing</a>
+        </div>
+      </div>
     </footer>
+
+    <!-- Mobile Menu Script -->
+    <script>
+      document
+        .querySelector(".mobile-menu-btn")
+        .addEventListener("click", function () {
+          const navLinks = document.querySelector(".nav-links");
+          const isExpanded = this.getAttribute("aria-expanded") === "true";
+
+          navLinks.classList.toggle("active");
+          this.setAttribute("aria-expanded", !isExpanded);
+          this.querySelector("i").classList.toggle("fa-bars");
+          this.querySelector("i").classList.toggle("fa-times");
+        });
+    </script>
   </body>
 </html>
