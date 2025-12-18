@@ -654,7 +654,7 @@
       /* Main Content */
       main {
         padding: 5rem 2rem;
-        max-width: 1400px;
+        max-width: 1600px;
         margin: 0 auto;
       }
 
@@ -815,19 +815,28 @@
       .property-price {
         position: absolute;
         bottom: 1rem;
-        right: 1rem;
-        background: var(--primary-color);
+        left: 50%;
+        transform: translateX(-50%);
+        background: linear-gradient(
+          135deg,
+          var(--primary-color),
+          var(--primary-light)
+        );
         color: white;
-        padding: 0.5rem 1rem;
-        border-radius: 8px;
+        padding: 0.6rem 1.25rem;
+        border-radius: 999px;
         font-weight: 700;
-        font-size: 1.1rem;
+        font-size: 1rem;
+        box-shadow: var(--shadow-md);
+        text-align: center;
+        white-space: nowrap;
       }
 
       .property-price span {
-        font-size: 0.8rem;
-        font-weight: 400;
-        opacity: 0.9;
+        font-size: 0.85rem;
+        font-weight: 600;
+        opacity: 0.95;
+        margin-left: 0.4rem;
       }
 
       .propertyDetails {
@@ -1543,7 +1552,7 @@
                 itemtype="https://schema.org/PostalAddress"
               >
                 <i class="fas fa-map-marker-alt"></i>
-                <span property="location">Knoxville, TN</span>,
+                <span property="location">Knoxville, TN</span>
               </p>
               <p class="property-description" property="description">
                 Welcome to Cherry Grove—a spacious single-family home nestled in

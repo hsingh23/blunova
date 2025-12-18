@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- Primary Meta Tags -->
-    <title>
-      Available Rental Properties | Blunova Properties in Knoxville, Tennessee
-    </title>
-    <meta
-      name="title"
-      content="Available Rental Properties | Blunova Properties in Knoxville, Tennessee"
+              <p
+                class="property-location"
+                itemscope
+                itemtype="https://schema.org/PostalAddress"
+              >
+                <i class="fas fa-map-marker-alt"></i>
+                <span property="location">Knoxville, TN</span>
+              </p>
     />
     <meta
       name="description"
@@ -593,19 +593,24 @@
       .property-price {
         position: absolute;
         bottom: 1rem;
-        right: 1rem;
-        background: var(--primary-color);
+        left: 50%;
+        transform: translateX(-50%);
+        background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
         color: white;
-        padding: 0.5rem 1rem;
-        border-radius: 8px;
+        padding: 0.6rem 1.25rem;
+        border-radius: 999px;
         font-weight: 700;
-        font-size: 1.1rem;
+        font-size: 1rem;
+        box-shadow: var(--shadow-md);
+        text-align: center;
+        white-space: nowrap;
       }
 
       .property-price span {
-        font-size: 0.8rem;
-        font-weight: 400;
-        opacity: 0.9;
+        font-size: 0.85rem;
+        font-weight: 600;
+        opacity: 0.95;
+        margin-left: 0.4rem;
       }
 
       .property-details {
