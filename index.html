@@ -14,13 +14,22 @@
     />
     <meta
       name="description"
-      content="Discover quality rental homes in Knoxville, TN. Blunova Properties offers well-maintained single-family houses with modern amenities, flexible lease terms, and professional property management. Browse available rentals today."
+      content="Discover quality rental homes in Nashville, TN. Blunova Properties offers well-maintained single-family houses with modern amenities, flexible lease terms, and professional property management. Address: 123 Main Street, Nashville, TN 37203. Phone: (615) 555-0123. Office Hours: Monday - Friday: 9:00 AM - 6:00 PM, Saturday: 10:00 AM - 4:00 PM, Sunday: Closed. Browse available rentals today."
     />
     <meta
       name="keywords"
-      content="Knoxville rentals, Tennessee rental homes, houses for rent Knoxville TN, Blunova Properties, single family rentals, Knoxville property management, affordable housing Tennessee, room rentals Knoxville"
+      content="Nashville rentals, Tennessee rental homes, houses for rent Nashville TN, Blunova Properties, single family rentals, Nashville property management, affordable housing Tennessee, room rentals Nashville, 123 Main Street, Nashville, TN 37203, (615) 555-0123"
     />
     <meta name="author" content="Blunova Properties" />
+    <meta
+      name="contact:address"
+      content="123 Main Street, Nashville, TN 37203"
+    />
+    <meta name="contact:phone_number" content="(615) 555-0123" />
+    <meta
+      name="contact:office_hours"
+      content="Monday - Friday: 9:00 AM - 6:00 PM; Saturday: 10:00 AM - 4:00 PM; Sunday: Closed"
+    />
     <meta name="robots" content="index, follow" />
     <meta name="language" content="English" />
     <meta name="revisit-after" content="7 days" />
@@ -57,7 +66,7 @@
     />
     <meta
       property="og:description"
-      content="Discover quality rental homes in Knoxville, TN. Well-maintained properties with modern amenities and professional management. Find your perfect home today."
+      content="Discover quality rental homes in Nashville, TN. Well-maintained properties with modern amenities and professional management. Address: 123 Main Street, Nashville, TN 37203. Phone: (615) 555-0123. Office Hours: Monday - Friday: 9:00 AM - 6:00 PM, Saturday: 10:00 AM - 4:00 PM, Sunday: Closed. Find your perfect home today."
     />
     <meta property="og:image" content="https://blunovainc.com/og-image.jpg" />
     <meta property="og:image:width" content="1200" />
@@ -78,7 +87,7 @@
     />
     <meta
       name="twitter:description"
-      content="Discover quality rental homes in Knoxville, TN. Well-maintained properties with modern amenities and professional management. Find your perfect home today."
+      content="Discover quality rental homes in Nashville, TN. Well-maintained properties with modern amenities and professional management. Address: 123 Main Street, Nashville, TN 37203. Phone: (615) 555-0123. Office Hours: Monday - Friday: 9:00 AM - 6:00 PM, Saturday: 10:00 AM - 4:00 PM, Sunday: Closed. Find your perfect home today."
     />
     <meta name="twitter:image" content="https://blunovainc.com/og-image.jpg" />
     <meta
@@ -98,7 +107,7 @@
         "@context": "https://schema.org",
         "@type": "RealEstateAgent",
         "name": "Blunova Properties",
-        "description": "Premium rental property management company offering quality single-family homes in Knoxville, Tennessee.",
+        "description": "Premium rental property management company offering quality single-family homes in Nashville, Tennessee.",
         "url": "https://blunovainc.com",
         "logo": "https://blunovainc.com/logo.png",
         "image": "https://blunovainc.com/og-image.jpg",
@@ -106,18 +115,20 @@
         "email": "info@blunovainc.com",
         "address": {
           "@type": "PostalAddress",
-          "addressLocality": "Knoxville",
+          "streetAddress": "123 Main Street",
+          "addressLocality": "Nashville",
           "addressRegion": "TN",
+          "postalCode": "37203",
           "addressCountry": "US"
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": "35.9606",
-          "longitude": "-83.9207"
+          "latitude": "36.1627",
+          "longitude": "-86.7816"
         },
         "areaServed": {
           "@type": "City",
-          "name": "Knoxville",
+          "name": "Nashville",
           "containedInPlace": {
             "@type": "State",
             "name": "Tennessee"
@@ -129,19 +140,31 @@
           "https://www.linkedin.com/company/blunovaproperties"
         ],
         "openingHoursSpecification": [
-            {
-              "@type": "OpeningHoursSpecification",
-              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-              "opens": "09:00",
-              "closes": "18:00"
-            },
-            {
-              "@type": "OpeningHoursSpecification",
-              "dayOfWeek": ["Saturday"],
-              "opens": "10:00",
-              "closes": "16:00"
-            }
-          ]
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "09:00",
+            "closes": "18:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Saturday"],
+            "opens": "10:00",
+            "closes": "16:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Sunday"],
+            "opens": "Closed",
+            "closes": "Closed"
+          }
+        ]
       }
     </script>
 
@@ -286,6 +309,10 @@
         --shadow-xl: 0 20px 40px rgba(0, 0, 0, 0.2);
         --border-radius: 12px;
         --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      .mv-bar.mv-ui {
+        z-index: 1100 !important;
+        position: absolute;
       }
 
       * {
@@ -1369,37 +1396,43 @@
           </a>
         </div>
         <div class="hero-stats">
-          <div class="stat-item">
-            <div class="stat-number">50+</div>
-            <div class="stat-label">Happy Tenants</div>
+          <div class="footer-content">
+            <div class="footer-section footer-about">
+              <h3>About Blunova</h3>
+              <p>
+                Blunova Properties is dedicated to providing quality rental
+                homes in Nashville, Tennessee. Our mission is to offer
+                well-maintained, comfortable, and affordable single-family homes
+                with professional management and responsive service.
+              </p>
+            </div>
+            <div class="footer-section">
+              <h3>Contact</h3>
+              <div class="footer-contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>123 Main Street, Nashville, TN 37203</span>
+              </div>
+              <div class="footer-contact-item">
+                <i class="fas fa-phone"></i>
+                <a href="tel:+16155550123">(615) 555-0123</a>
+              </div>
+              <div class="footer-contact-item">
+                <i class="fas fa-clock"></i>
+                <span
+                  >Office Hours:<br />Monday - Friday: 9:00 AM - 6:00 PM<br />Saturday:
+                  10:00 AM - 4:00 PM<br />Sunday: Closed</span
+                >
+              </div>
+            </div>
+            <div class="footer-section">
+              <h3>Quick Links</h3>
+              <ul class="footer-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+              </ul>
+            </div>
           </div>
-          <div class="stat-item">
-            <div class="stat-number">4.8</div>
-            <div class="stat-label">Average Rating</div>
-          </div>
-          <div class="stat-item">
-            <div class="stat-number">24/7</div>
-            <div class="stat-label">Support Available</div>
-          </div>
-        </div>
-      </div>
-      <a
-        href="#properties"
-        class="scroll-indicator"
-        aria-label="Scroll to properties"
-      >
-        <i class="fas fa-chevron-down"></i>
-      </a>
-    </section>
-
-    <!-- Trust Badges -->
-    <section class="trust-badges" aria-label="Trust indicators">
-      <div class="trust-badges-inner">
-        <div class="trust-badge">
-          <i class="fas fa-shield-alt"></i>
-          <span>Verified Properties</span>
-        </div>
-        <div class="trust-badge">
           <i class="fas fa-check-circle"></i>
           <span>Background Checked</span>
         </div>
@@ -1740,7 +1773,9 @@
           </div>
           <div class="footer-contact-item">
             <i class="fas fa-clock"></i>
-            <span>Mon-Fri: 9AM - 6PM<br>Sat: 10AM - 4PM<br>Sunday: Closed</span>
+            <span
+              >Mon-Fri: 9AM - 6PM<br />Sat: 10AM - 4PM<br />Sunday: Closed</span
+            >
           </div>
         </div>
       </div>

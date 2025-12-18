@@ -14,13 +14,16 @@
     />
     <meta
       name="description"
-      content="Learn about Blunova Properties, Knoxville's trusted property management company. Discover our commitment to quality rental homes, transparent leasing, and exceptional tenant service since 2010."
+      content="Learn about Blunova Properties, Nashville's trusted property management company. Discover our commitment to quality rental homes, transparent leasing, and exceptional tenant service since 2010. Address: 123 Main Street, Nashville, TN 37203. Phone: (615) 555-0123. Office Hours: Monday - Friday: 9:00 AM - 6:00 PM, Saturday: 10:00 AM - 4:00 PM, Sunday: Closed."
     />
     <meta
       name="keywords"
-      content="Blunova Properties about, Knoxville property management, Tennessee rental company, about blunova, property management team, Knoxville real estate"
+      content="Blunova Properties about, Nashville property management, Tennessee rental company, about blunova, property management team, Nashville real estate, 123 Main Street, Nashville, TN 37203, (615) 555-0123"
     />
     <meta name="author" content="Blunova Properties" />
+      <meta name="contact:address" content="123 Main Street, Nashville, TN 37203" />
+      <meta name="contact:phone_number" content="(615) 555-0123" />
+      <meta name="contact:office_hours" content="Monday - Friday: 9:00 AM - 6:00 PM; Saturday: 10:00 AM - 4:00 PM; Sunday: Closed" />
     <meta name="robots" content="index, follow" />
     <meta name="language" content="English" />
     <meta name="revisit-after" content="7 days" />
@@ -57,7 +60,7 @@
     />
     <meta
       property="og:description"
-      content="Learn about Blunova Properties, Knoxville's trusted property management company. Discover our commitment to quality rental homes and exceptional tenant service."
+      content="Learn about Blunova Properties, Nashville's trusted property management company. Discover our commitment to quality rental homes and exceptional tenant service. Address: 123 Main Street, Nashville, TN 37203. Phone: (615) 555-0123. Office Hours: Monday - Friday: 9:00 AM - 6:00 PM, Saturday: 10:00 AM - 4:00 PM, Sunday: Closed."
     />
     <meta property="og:image" content="https://blunovainc.com/og-image.jpg" />
     <meta property="og:image:width" content="1200" />
@@ -78,7 +81,7 @@
     />
     <meta
       name="twitter:description"
-      content="Learn about Blunova Properties, Knoxville's trusted property management company. Discover our commitment to quality rental homes and exceptional tenant service."
+      content="Learn about Blunova Properties, Nashville's trusted property management company. Discover our commitment to quality rental homes and exceptional tenant service. Address: 123 Main Street, Nashville, TN 37203. Phone: (615) 555-0123. Office Hours: Monday - Friday: 9:00 AM - 6:00 PM, Saturday: 10:00 AM - 4:00 PM, Sunday: Closed."
     />
     <meta name="twitter:image" content="https://blunovainc.com/og-image.jpg" />
     <meta
@@ -98,12 +101,12 @@
         "@context": "https://schema.org",
         "@type": "AboutPage",
         "name": "About Blunova Properties",
-        "description": "Learn about Blunova Properties, Knoxville's trusted property management company",
+        "description": "Learn about Blunova Properties, Nashville's trusted property management company",
         "url": "https://blunovainc.com/about.html",
         "mainEntity": {
           "@type": "RealEstateAgent",
           "name": "Blunova Properties",
-          "description": "Premium rental property management company offering quality single-family homes in Knoxville, Tennessee.",
+          "description": "Premium rental property management company offering quality single-family homes in Nashville, Tennessee.",
           "url": "https://blunovainc.com",
           "logo": "https://blunovainc.com/logo.png",
           "image": "https://blunovainc.com/og-image.jpg",
@@ -111,18 +114,20 @@
           "email": "info@blunovainc.com",
           "address": {
             "@type": "PostalAddress",
-            "addressLocality": "Knoxville",
+            "streetAddress": "123 Main Street",
+            "addressLocality": "Nashville",
             "addressRegion": "TN",
+            "postalCode": "37203",
             "addressCountry": "US"
           },
           "geo": {
             "@type": "GeoCoordinates",
-            "latitude": "35.9606",
-            "longitude": "-83.9207"
+            "latitude": "36.1627",
+            "longitude": "-86.7816"
           },
           "areaServed": {
             "@type": "City",
-            "name": "Knoxville",
+            "name": "Nashville",
             "containedInPlace": {
               "@type": "State",
               "name": "Tennessee"
@@ -196,6 +201,10 @@
         --shadow-xl: 0 20px 40px rgba(0, 0, 0, 0.2);
         --border-radius: 12px;
         --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      .mv-bar.mv-ui {
+        z-index: 1100 !important;
+        position: absolute;
       }
 
       * {
@@ -1128,37 +1137,37 @@
         </p>
         <div class="values-grid">
           <article class="value-card">
-            <div class="value-icon">
-              <i class="fas fa-shield-alt"></i>
+            <div class="footer-content">
+              <div class="footer-section footer-about">
+                <h3>About Blunova</h3>
+                <p>
+                  Blunova Properties is dedicated to providing quality rental homes in Nashville, Tennessee. Our mission is to offer well-maintained, comfortable, and affordable single-family homes with professional management and responsive service.
+                </p>
+              </div>
+              <div class="footer-section">
+                <h3>Contact</h3>
+                <div class="footer-contact-item">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>123 Main Street, Nashville, TN 37203</span>
+                </div>
+                <div class="footer-contact-item">
+                  <i class="fas fa-phone"></i>
+                  <a href="tel:+16155550123">(615) 555-0123</a>
+                </div>
+                <div class="footer-contact-item">
+                  <i class="fas fa-clock"></i>
+                  <span>Office Hours:<br />Monday - Friday: 9:00 AM - 6:00 PM<br />Saturday: 10:00 AM - 4:00 PM<br />Sunday: Closed</span>
+                </div>
+              </div>
+              <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                  <li><a href="./index.html">Home</a></li>
+                  <li><a href="./about.html">About</a></li>
+                  <li><a href="./contact.html">Contact</a></li>
+                </ul>
+              </div>
             </div>
-            <h3>Trust & Integrity</h3>
-            <p>
-              We operate with complete transparency and honesty in all our
-              dealings.
-            </p>
-          </article>
-          <article class="value-card">
-            <div class="value-icon">
-              <i class="fas fa-home"></i>
-            </div>
-            <h3>Quality Homes</h3>
-            <p>
-              Every property is maintained to the highest standards of safety
-              and comfort.
-            </p>
-          </article>
-          <article class="value-card">
-            <div class="value-icon">
-              <i class="fas fa-users"></i>
-            </div>
-            <h3>Tenant First</h3>
-            <p>
-              Our tenants' needs and satisfaction are always our top priority.
-            </p>
-          </article>
-          <article class="value-card">
-            <div class="value-icon">
-              <i class="fas fa-tools"></i>
             </div>
             <h3>Responsive Service</h3>
             <p>

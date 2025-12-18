@@ -12,11 +12,14 @@
     />
     <meta
       name="description"
-      content="Get in touch with Blunova Properties for rental inquiries, property viewings, or maintenance requests. Located at 123 Main Street, Nashville, TN. Call (615) 555-0123. Office hours: Mon-Fri 9AM-6PM, Sat 10AM-4PM."
+      content="Get in touch with Blunova Properties for rental inquiries, property viewings, or maintenance requests. Address: 123 Main Street, Nashville, TN 37203. Phone: (615) 555-0123. Office Hours: Monday - Friday: 9:00 AM - 6:00 PM, Saturday: 10:00 AM - 4:00 PM, Sunday: Closed."
     />
     <meta
       name="keywords"
-      content="contact Blunova Properties, Nashville rental inquiries, Tennessee property management contact, schedule viewing Nashville, rental application Tennessee, Nashville TN rentals"
+      content="contact Blunova Properties, Nashville rental inquiries, Tennessee property management contact, schedule viewing Nashville, rental application Tennessee, Nashville TN rentals, 123 Main Street, Nashville, TN 37203, (615) 555-0123"
+      <meta name="contact:address" content="123 Main Street, Nashville, TN 37203" />
+      <meta name="contact:phone_number" content="(615) 555-0123" />
+      <meta name="contact:office_hours" content="Monday - Friday: 9:00 AM - 6:00 PM; Saturday: 10:00 AM - 4:00 PM; Sunday: Closed" />
     />
 
     <!-- Open Graph / Facebook -->
@@ -26,7 +29,7 @@
     />
     <meta
       property="og:description"
-      content="Get in touch with Blunova Properties for rental inquiries and property viewings. Located at 123 Main Street, Nashville, TN. Call (615) 555-0123."
+      content="Get in touch with Blunova Properties for rental inquiries and property viewings. Address: 123 Main Street, Nashville, TN 37203. Phone: (615) 555-0123. Office Hours: Monday - Friday: 9:00 AM - 6:00 PM, Saturday: 10:00 AM - 4:00 PM, Sunday: Closed."
     />
 
     <!-- Twitter -->
@@ -36,7 +39,7 @@
     />
     <meta
       name="twitter:description"
-      content="Get in touch with Blunova Properties for rental inquiries and property viewings. Located at 123 Main Street, Nashville, TN. Call (615) 555-0123."
+      content="Get in touch with Blunova Properties for rental inquiries and property viewings. Address: 123 Main Street, Nashville, TN 37203. Phone: (615) 555-0123. Office Hours: Monday - Friday: 9:00 AM - 6:00 PM, Saturday: 10:00 AM - 4:00 PM, Sunday: Closed."
     />
 
     <!-- Geographic Meta Tags -->
@@ -90,6 +93,12 @@
               "dayOfWeek": ["Saturday"],
               "opens": "10:00",
               "closes": "16:00"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Sunday"],
+              "opens": "Closed",
+              "closes": "Closed"
             }
           ]
         }
@@ -162,6 +171,7 @@
       }
       .mv-bar.mv-ui {
         z-index: 1100 !important;
+        position: absolute;
       }
 
       * {
@@ -1151,45 +1161,46 @@
             <div class="contact-info tinymce" property="contactInfo">
               <h2>Contact Information</h2>
 
-              <div class="contact-item">
-                <div class="contact-icon">
-                  <i class="fas fa-map-marker-alt"></i>
+              <div class="footer-content">
+                <div class="footer-section footer-about">
+                  <h3>About Blunova</h3>
+                  <p>
+                    Blunova Properties is dedicated to providing quality rental homes in Nashville, Tennessee. Our mission is to offer well-maintained, comfortable, and affordable single-family homes with professional management and responsive service.
+                  </p>
                 </div>
-                <div class="contact-details">
-                  <h3>Our Location</h3>
-                  <p>Knoxville, Tennessee</p>
+                <div class="footer-section">
+                  <h3>Contact</h3>
+                  <div class="footer-contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>123 Main Street, Nashville, TN 37203</span>
+                  </div>
+                  <div class="footer-contact-item">
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:+16155550123">(615) 555-0123</a>
+                  </div>
+                  <div class="footer-contact-item">
+                    <i class="fas fa-clock"></i>
+                    <span>Office Hours:<br />Monday - Friday: 9:00 AM - 6:00 PM<br />Saturday: 10:00 AM - 4:00 PM<br />Sunday: Closed</span>
+                  </div>
+                </div>
+                <div class="footer-section">
+                  <h3>Quick Links</h3>
+                  <ul class="footer-links">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                  </ul>
                 </div>
               </div>
-
-              <div class="contact-item">
-                <div class="contact-icon">
-                  <i class="fas fa-phone-alt"></i>
-                </div>
-                <div class="contact-details">
-                  <h3>Phone</h3>
-                  <a href="tel:+18655550123">(865) 555-0123</a>
-                </div>
-              </div>
-
-              <div class="contact-item">
-                <div class="contact-icon">
-                  <i class="fas fa-envelope"></i>
-                </div>
-                <div class="contact-details">
-                  <h3>Email</h3>
-                  <a href="mailto:info@blunovainc.com">info@blunovainc.com</a>
-                </div>
-              </div>
-
-              <div class="contact-item">
                 <div class="contact-icon">
                   <i class="fas fa-clock"></i>
                 </div>
                 <div class="contact-details">
                   <h3>Office Hours</h3>
                   <p>
-                    Monday – Friday: 9:00 AM – 5:00 PM<br />
-                    Saturday – Sunday: By Appointment
+                    Monday – Friday: 9:00 AM – 6:00 PM<br />
+                    Saturday: 10:00 AM – 4:00 PM<br />
+                    Sunday: Closed
                   </p>
                 </div>
               </div>
@@ -1202,7 +1213,7 @@
                 For urgent maintenance requests or time-sensitive inquiries,
                 give us a call directly.
               </p>
-              <a href="tel:+18655550123" class="quick-contact-btn">
+              <a href="tel:+16155550123" class="quick-contact-btn">
                 <i class="fas fa-phone"></i> Call Now
               </a>
             </div>
@@ -1257,7 +1268,7 @@
                       type="tel"
                       id="phone"
                       name="phone"
-                      placeholder="(865) 555-0123"
+                      placeholder="(615) 555-0123"
                     />
                   </div>
 
@@ -1437,9 +1448,9 @@
           <div class="footer-contact-item">
             <i class="fas fa-phone"></i>
             <a
-              href="tel:+18655550123"
+              href="tel:+16155550123"
               style="color: white; text-decoration: none"
-              >(865) 555-0123</a
+              >(615) 555-0123</a
             >
           </div>
           <div class="footer-contact-item">
