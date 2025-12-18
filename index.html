@@ -312,6 +312,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+    <link rel="preload" href="blunova-home.json" as="fetch" crossorigin />
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://get.mavo.io/mavo.min.css" />
@@ -1388,6 +1389,7 @@
     mv-plugins="tinymce importhtml"
     mv-app="blunova-home"
     mv-storage="https://github.com/hsingh23/blunova"
+    mv-init="blunova-home.json"
     mv-bar="no-login"
     autosave="3"
     mv-upload-path="pictures"
@@ -1431,12 +1433,12 @@
     >
       <div class="hero-content">
         <span class="hero-badge">
-          <i class="fas fa-star"></i> Trusted Property Management in Tennessee
+          <i class="fas fa-star"></i> <span property="heroBadge">Trusted Property Management in Tennessee</span>
         </span>
-        <h1>
+        <h1 property="heroTitle" class="tinymce">
           Your Next <span class="hero-highlight">Home</span> Awaits in Knoxville
         </h1>
-        <p>
+        <p property="heroDescription" class="tinymce">
           Experience stress-free renting with Blunova Properties. We offer
           carefully maintained single-family homes in Knoxville's most desirable
           neighborhoods—complete with modern amenities and responsive property
@@ -1476,22 +1478,11 @@
 
     <!-- Trust Badges -->
     <section class="trust-badges" aria-label="Trust indicators">
-      <div class="trust-badges-inner">
-        <div class="trust-badge">
-          <i class="fas fa-shield-alt"></i>
-          <span>Verified Properties</span>
-        </div>
-        <div class="trust-badge">
-          <i class="fas fa-check-circle"></i>
-          <span>Background Checked</span>
-        </div>
-        <div class="trust-badge">
-          <i class="fas fa-clock"></i>
-          <span>Fast Response Time</span>
-        </div>
-        <div class="trust-badge">
-          <i class="fas fa-tools"></i>
-          <span>Professional Maintenance</span>
+      <div class="trust-badges-inner" mv-list="trustBadges">
+        <div class="trust-badge" mv-list-item>
+          <meta property="icon" content="fa-shield-alt" />
+          <i class="fas [icon]"></i>
+          <span property="text">Verified Properties</span>
         </div>
       </div>
     </section>
@@ -1505,46 +1496,17 @@
           experience exceptional from move-in to move-out.
         </p>
       </div>
-      <div class="features-grid">
-        <article class="feature-card">
+      <div class="features-grid" mv-list="features">
+        <article class="feature-card" mv-list-item>
+          <meta property="icon" content="fa-home" />
           <div class="feature-icon">
-            <i class="fas fa-home"></i>
+            <i class="fas [icon]"></i>
           </div>
-          <h3>Quality Properties</h3>
-          <p>
+          <h3 property="title">Quality Properties</h3>
+          <p property="description">
             Every home in our portfolio is carefully vetted, regularly
             maintained, and equipped with modern amenities for comfortable
             living.
-          </p>
-        </article>
-        <article class="feature-card">
-          <div class="feature-icon">
-            <i class="fas fa-handshake"></i>
-          </div>
-          <h3>Transparent Process</h3>
-          <p>
-            No hidden fees, no surprises. We believe in clear communication and
-            straightforward lease terms you can understand.
-          </p>
-        </article>
-        <article class="feature-card">
-          <div class="feature-icon">
-            <i class="fas fa-wrench"></i>
-          </div>
-          <h3>Rapid Maintenance</h3>
-          <p>
-            Something needs fixing? Our dedicated maintenance team responds
-            quickly to keep your home in perfect condition.
-          </p>
-        </article>
-        <article class="feature-card">
-          <div class="feature-icon">
-            <i class="fas fa-heart"></i>
-          </div>
-          <h3>Tenant-First Approach</h3>
-          <p>
-            Your comfort is our priority. We treat every tenant like family and
-            work hard to make your house feel like home.
           </p>
         </article>
       </div>
@@ -1614,8 +1576,8 @@
           properties home.
         </p>
       </div>
-      <div class="testimonials-grid">
-        <article class="testimonial-card">
+      <div class="testimonials-grid" mv-list="testimonials">
+        <article class="testimonial-card" mv-list-item>
           <div class="testimonial-stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -1623,58 +1585,16 @@
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
           </div>
-          <p class="testimonial-text">
+          <p class="testimonial-text" property="text">
             "Moving to Knoxville was stressful, but Blunova made finding a home
             so easy. The property was exactly as advertised, and the team has
             been incredibly responsive whenever I've had questions."
           </p>
           <div class="testimonial-author">
-            <div class="author-avatar">JM</div>
+            <div class="author-avatar" property="authorInitials">JM</div>
             <div class="author-info">
-              <h4>Jennifer M.</h4>
-              <p>Tenant since 2023</p>
-            </div>
-          </div>
-        </article>
-        <article class="testimonial-card">
-          <div class="testimonial-stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <p class="testimonial-text">
-            "Best rental experience I've ever had. When our AC went out during
-            summer, they had someone there within hours. That kind of service is
-            rare and really appreciated."
-          </p>
-          <div class="testimonial-author">
-            <div class="author-avatar">RT</div>
-            <div class="author-info">
-              <h4>Robert T.</h4>
-              <p>Tenant since 2022</p>
-            </div>
-          </div>
-        </article>
-        <article class="testimonial-card">
-          <div class="testimonial-stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-          </div>
-          <p class="testimonial-text">
-            "The application process was straightforward, and they were upfront
-            about everything. No hidden fees or surprises. Finally, a property
-            management company that treats tenants with respect!"
-          </p>
-          <div class="testimonial-author">
-            <div class="author-avatar">SK</div>
-            <div class="author-info">
-              <h4>Sarah K.</h4>
-              <p>Tenant since 2023</p>
+              <h4 property="authorName">Jennifer M.</h4>
+              <p property="authorType">Tenant since 2023</p>
             </div>
           </div>
         </article>
@@ -1683,12 +1603,12 @@
 
     <!-- CTA Section -->
     <section class="cta-section" aria-labelledby="cta-heading">
-      <h2 id="cta-heading">Ready to Find Your Perfect Rental?</h2>
-      <p>
+      <h2 id="cta-heading" property="ctaTitle">Ready to Find Your Perfect Rental?</h2>
+      <p property="ctaDescription">
         Whether you're relocating to Knoxville or looking for a better living
         situation, we're here to help you every step of the way.
       </p>
-      <a href="./contact.html" class="hero-cta hero-cta-primary">
+      <a href="./contact.html" class="hero-cta hero-cta-primary" property="ctaButtonText">
         <i class="fas fa-calendar-check"></i> Schedule a Viewing Today
       </a>
     </section>

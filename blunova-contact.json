@@ -1,4 +1,28 @@
 {
-	"contactInfo": "\n            <h2>Get in Touch</h2>\n            <p><strong>Address:</strong> 123 Main Street, Nashville, TN 37203</p>\n            <p><strong>Phone:</strong> (615) 555-0123</p>\n            <p>\n              <strong>Office Hours:</strong><br>\n              Monday - Friday: 9:00 AM - 6:00 PM<br>\n              Saturday: 10:00 AM - 4:00 PM<br>\n              Sunday: Closed\n            </p>\n          ",
-	"formId": "blunova-contact-bca8a0"
+  "heroBadge": "We're Here to Help",
+  "heroTitle": "Get in Touch",
+  "heroDescription": "Have questions about our properties or ready to schedule a viewing? Our team is here to assist you every step of the way.",
+  "contactInfo": "<h2>Contact Information</h2><p><strong>Address:</strong> 123 Main Street, Nashville, TN 37203</p><p><strong>Phone:</strong> (615) 555-0123</p><p><strong>Office Hours:</strong> Monday – Friday: 9:00 AM – 6:00 PM, Saturday: 10:00 AM – 4:00 PM, Sunday: Closed</p>",
+  "formId": "contact-form-1",
+  "faqItem": [
+    {
+      "question": "How quickly can I schedule a property viewing?",
+      "answer": "We typically respond to viewing requests within 24 hours. In many cases, we can schedule same-day or next-day viewings depending on availability."
+    },
+    {
+      "question": "What is the application process like?",
+      "answer": "Our application process is entirely online. Once you've toured a property, we'll send you a link to our secure portal where you can submit your application, background check authorization, and income verification."
+    }
+  ],
+  "links": {
+    "link": [
+      "./about.html",
+      "./properties.html",
+      "./contact.html"
+    ]
+  },
+  "link": [
+    "./about.html",
+    "./contact.html"
+  ]
 }
