@@ -1,7 +1,47 @@
 {
-  "links": {
-    "link": ["./about.html", "./properties.html", "./contact.html"]
-  },
+  "heroBadge": "Trusted Property Management in Tennessee",
+  "heroTitle": "Your Next <span class=\"hero-highlight\">Home</span> Awaits in Knoxville",
+  "heroDescription": "Experience stress-free renting with Blunova Properties. We offer carefully maintained single-family homes in Knoxville's most desirable neighborhoods—complete with modern amenities and responsive property management.",
+  "trustBadges": [
+    {
+      "icon": "fa-shield-alt",
+      "text": "Verified Properties"
+    },
+    {
+      "icon": "fa-check-circle",
+      "text": "Background Checked"
+    },
+    {
+      "icon": "fa-clock",
+      "text": "Fast Response Time"
+    },
+    {
+      "icon": "fa-tools",
+      "text": "Professional Maintenance"
+    }
+  ],
+  "features": [
+    {
+      "icon": "fa-home",
+      "title": "Quality Properties",
+      "description": "Every home in our portfolio is carefully vetted, regularly maintained, and equipped with modern amenities for comfortable living."
+    },
+    {
+      "icon": "fa-handshake",
+      "title": "Transparent Process",
+      "description": "No hidden fees, no surprises. We believe in clear communication and straightforward lease terms you can understand."
+    },
+    {
+      "icon": "fa-wrench",
+      "title": "Rapid Maintenance",
+      "description": "Something needs fixing? Our dedicated maintenance team responds quickly to keep your home in perfect condition."
+    },
+    {
+      "icon": "fa-heart",
+      "title": "Tenant-First Approach",
+      "description": "Your comfort is our priority. We treat every tenant like family and work hard to make your house feel like home."
+    }
+  ],
   "sectionContent": "<h1>Handpicked Rental Homes in Knoxville, TN</h1>\n<p>Find move-in ready rental homes across Knoxville, Tennessee—professionally managed by Blunova Properties. Our curated selection includes spacious single-family houses and well-appointed apartments in desirable neighborhoods, with modern amenities, flexible lease options, and fast local support.</p>\n<p>Browse listings for Cherry Grove, Creekhead Cove, Chimney Ridge, and Luttrell &amp; 3rd to view photos, floor plans, and availability. Whether you need short-term housing or a long-term rental, discover comfortable, convenient homes in Knoxville, TN.</p>\n<p><strong>Contact us</strong> to schedule a tour or check availability—trusted Knoxville rentals with responsive local management.</p>",
   "propertyCard": [
     {
@@ -12,27 +52,60 @@
       "link": "./properties/cherry-grove.html"
     },
     {
-      "image": "https://cdn.jsdelivr.net/gh/hsingh23/blunova@6d112cd68ddf00c529ddfd46db962dbf2cbc63c7/images/Front%20Image.jpg",
+      "image": "https://blunovainc.com/properties/images/5454%20Creekhead%20Cove%20Lane/5454%20Creekhead%20Cove%20Lane_Exterior_Front_Main.webp",
       "title": "Creekhead Cove",
       "location": "Knoxville, TN",
       "description": "4-bedroom single-family home in Knoxville — updated interiors and convenient location",
-      "link": "/properties/creekhead.html"
+      "link": "./properties/creekhead.html"
     },
     {
-      "image": "https://cdn.jsdelivr.net/gh/hsingh23/blunova@1ff56fd0cc978f3577742e46be8d4314a43469c2/images/2413%20Chimney%20Ridge_House.jpg",
+      "image": "https://blunovainc.com/properties/images/2413%20Chimney%20Ridge%20Road/2413%20Chimney%20Ridge%20Road_Exterior_Aerial_Front.jpg",
       "title": "Chimney Ridge",
       "location": "Knoxville, TN",
       "description": "3-bedroom single-family rental near Knoxville amenities — comfortable layout and updated finishes",
-      "link": "/properties/chimney.html"
+      "link": "./properties/chimney.html"
     },
     {
-      "image": "https://cdn.jsdelivr.net/gh/hsingh23/blunova@c8cdce71467b91badded52c843e33b73c1792964/images/628%20House.jpg",
+      "image": "https://blunovainc.com/properties/images/628%20Luttrell%20St%20%26%20510%203rd%20Ave/628%20Luttrell%20St_Exterior_White_House.jpg",
       "title": "Luttrell and 3rd",
       "location": "Knoxville, TN",
       "description": "Two 1‑bed and two 2‑bed apartment units in Knoxville — great for professionals and small families",
-      "link": "/properties/luttrell.html"
+      "link": "./properties/luttrell.html"
     }
   ],
+  "testimonials": [
+    {
+      "text": "\"Moving to Knoxville was stressful, but Blunova made finding a home so easy. The property was exactly as advertised, and the team has been incredibly responsive whenever I've had questions.\"",
+      "authorInitials": "JM",
+      "authorName": "Jennifer M.",
+      "authorType": "Tenant since 2023"
+    },
+    {
+      "text": "\"Best rental experience I've ever had. When our AC went out during summer, they had someone there within hours. That kind of service is rare and really appreciated.\"",
+      "authorInitials": "RT",
+      "authorName": "Robert T.",
+      "authorType": "Tenant since 2022"
+    },
+    {
+      "text": "\"The application process was straightforward, and they were upfront about everything. No hidden fees or surprises. Finally, a property management company that treats tenants with respect!\"",
+      "authorInitials": "SK",
+      "authorName": "Sarah K.",
+      "authorType": "Tenant since 2023"
+    }
+  ],
+  "ctaTitle": "Ready to Find Your Perfect Rental?",
+  "ctaDescription": "Whether you're relocating to Knoxville or looking for a better living situation, we're here to help you every step of the way.",
+  "ctaButtonText": "Schedule a Viewing Today",
+  "links": {
+    "link": [
+      "./about.html",
+      "./properties.html",
+      "./contact.html"
+    ]
+  },
   "footer": "© 2023 Blunova Properties. All rights reserved.",
-  "link": ["./about.html", "./contact.html"]
+  "link": [
+    "./about.html",
+    "./contact.html"
+  ]
 }
