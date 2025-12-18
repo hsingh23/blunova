@@ -1,19 +1,55 @@
 {
-	"property-hero-content": "\n          <h1>Cherry Grove</h1>\n          <p>Knoxville, TN</p>\n        ",
-	"property-details": {
-		"property-description": "\n          <h2>Property Overview</h2>\n          <p>This charming retreat in Knoxville offers a cozy and comfortable stay. The property features modern amenities and is perfect for both short and long stays.</p>\n          <p>&nbsp;</p>\n          <p>\n            The space includes a fully equipped kitchen, a spacious living area, and dedicated workspaces. The bedroom is designed for relaxation with a comfortable bed and ample\n            storage.\n          </p>\n          <p>&nbsp;</p>\n          <h2>Amenities</h2>\n          <p>🍳 Fully equipped kitchen with modern appliances</p>\n          <p>🛏️ Comfortable bedroom with premium linens</p>\n          <p>💻 High-speed Wi-Fi and dedicated workspace</p>\n          <p>📺 Smart TV with streaming services</p>\n          <p>🧺 In-unit washer and dryer</p>\n          <p>🚗 Free parking on premises</p>\n          <p>❄️ Air conditioning and heating</p>\n          <p>&nbsp;</p>\n          <h2>Location</h2>\n          <p>\n            Located in a quiet neighborhood in Knoxville, this property is close to local attractions, restaurants, and shopping centers. Enjoy easy access to downtown Knoxville\n            and the University of Tennessee.\n          </p>\n        ",
-		"feature-list": "\n            <li><strong>Bedrooms:</strong> 4</li>\n            <li><strong>Bathrooms:</strong> 1.5 shared bathrooms, with the master bedroom having a private bathroom.</li>\n            <li><strong>Pet Policy:</strong> Pets not allowed</li>\n          "
-	},
-	"gallery-desc": "\n          <h2>Rooms</h2>\n          <p>\n            <strong> Each room below goes to airbnb which has availability and pricing information </strong>\n          </p>\n        ",
-	"airbnbLinks": [
-		{
-			"link": "https://www.airbnb.com/rooms/1030589498253747656",
-			"image": "./rooms/3.webp"
-		}
-	],
-	"pictures": [
-		{
-			"image": "./cherry-grove-images/Front_2.jpg"
-		}
-	]
+  "property-hero-content": "\n          <h1>Luttrell Street</h1>\n          <p>Knoxville, TN</p>\n        ",
+  "property-details": {
+    "property-description": "<h2>Property Overview</h2><p>This charming retreat in Knoxville offers a cozy and comfortable stay. The property features modern amenities and is perfect for both short and long stays.</p><p>&nbsp;</p><p>The space includes a fully equipped kitchen, a spacious living area, and dedicated workspaces. The bedroom is designed for relaxation with a comfortable bed and ample storage.</p><p>&nbsp;</p><h2>Amenities</h2><p>🍳 Fully equipped kitchen with modern appliances</p><p>🛏️ Comfortable bedroom with premium linens</p><p>💻 High-speed Wi-Fi and dedicated workspace</p><p>📺 Smart TV with streaming services</p><p>🧺 In-unit washer and dryer</p><p>🚗 Free parking on premises</p><p>❄️ Air conditioning and heating</p><p>&nbsp;</p><h2>Location</h2><p>Located in a quiet neighborhood in Knoxville, this property is close to local attractions, restaurants, and shopping centers. Enjoy easy access to downtown Knoxville and the University of Tennessee.</p>",
+    "feature-list": "<ul>\n<li><strong>Bedrooms:</strong> Multiple units available</li>\n<li><strong>Bathrooms:</strong> Varies by unit</li>\n<li><strong>Pet Policy:</strong> Pets not allowed</li>\n</ul>"
+  },
+  "gallery-desc": "<h2>Rooms</h2><p>&nbsp;</p><p>Each room below goes to <strong>airbnb</strong> which has availability and pricing information. Please check availability by clicking each picture.</p><p>&nbsp;</p>",
+  "airbnbLinks": [
+    {
+      "link": "https://www.airbnb.com/rooms/1030589498253747656",
+      "image": "./rooms/3.webp"
+    }
+  ],
+  "pictures": [
+    {
+      "image": "./images/628 Luttrell St & 510 3rd Ave/628 Luttrell St_Exterior_White_House.jpg"
+    },
+    {
+      "image": "./images/628 Luttrell St & 510 3rd Ave/510 3rd Ave_Exterior_Stone_House.jpg"
+    },
+    {
+      "image": "./images/628 Luttrell St & 510 3rd Ave/628 #1/628 Luttrell St_Unit_1_Living_Room_Empty.jpeg"
+    },
+    {
+      "image": "./images/628 Luttrell St & 510 3rd Ave/628 #1/628 Luttrell St_Unit_1_Bedroom_1.jpeg"
+    },
+    {
+      "image": "./images/628 Luttrell St & 510 3rd Ave/628 #1/628 Luttrell St_Unit_1_Kitchen_Stove.jpeg"
+    },
+    {
+      "image": "./images/628 Luttrell St & 510 3rd Ave/628 #1/628 Luttrell St_Unit_1_Mini_Kitchen.jpeg"
+    },
+    {
+      "image": "./images/628 Luttrell St & 510 3rd Ave/628 #1/628 Luttrell St_Unit_1_Bathroom.jpeg"
+    },
+    {
+      "image": "./images/628 Luttrell St & 510 3rd Ave/628 #2/628 Luttrell St_Unit_2_Living_Room.jpeg"
+    },
+    {
+      "image": "./images/628 Luttrell St & 510 3rd Ave/628 #2/628 Luttrell St_Unit_2_Bedroom_1.jpeg"
+    },
+    {
+      "image": "./images/628 Luttrell St & 510 3rd Ave/628 #2/628 Luttrell St_Unit_2_Kitchen_View.jpeg"
+    },
+    {
+      "image": "./images/628 Luttrell St & 510 3rd Ave/510 #2/510 3rd Ave_Unit_2_Living_Room.jpeg"
+    },
+    {
+      "image": "./images/628 Luttrell St & 510 3rd Ave/510 #2/510 3rd Ave_Unit_2_Bedroom_1.jpeg"
+    },
+    {
+      "image": "./images/628 Luttrell St & 510 3rd Ave/510 #2/510 3rd Ave_Unit_2_Kitchen.jpeg"
+    }
+  ]
 }

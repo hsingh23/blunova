@@ -1,10 +1,10 @@
 {
-  "property-hero-content": "\n          <h1>Cherry Grove</h1>\n          <p>Knoxville, TN</p>\n        ",
+  "property-hero-content": "\n          <h1>Chimney Ridge</h1>\n          <p>Knoxville, TN</p>\n        ",
   "property-details": {
-    "property-description": "<h2>Property Overview</h2>\n<p>This charming retreat in Knoxville offers a cozy and comfortable stay. The property features modern amenities and is perfect for both short and long stays.</p>\n<p>&nbsp;</p>\n<p>The space includes a fully equipped kitchen, a spacious living area, and dedicated workspaces. The bedroom is designed for relaxation with a comfortable bed and ample storage.</p>\n<p>&nbsp;</p>\n<h2>Amenities</h2>\n<p>🍳 Fully equipped kitchen with modern appliances</p>\n<p>🛏️ Comfortable bedroom with premium linens</p>\n<p>💻 High-speed Wi-Fi and dedicated workspace</p>\n<p>📺 Smart TV with streaming services</p>\n<p>🧺 In-unit washer and dryer</p>\n<p>🚗 Free parking on premises</p>\n<p>❄️ Air conditioning and heating</p>\n<p>&nbsp;</p>\n<h2>Location</h2>\n<p>Located in a quiet neighborhood in Knoxville, this property is close to local attractions, restaurants, and shopping centers. Enjoy easy access to downtown Knoxville and the University of Tennessee.</p>",
-    "feature-list": "<ul>\n<li><strong>Bedrooms:</strong> 4</li>\n<li><strong>Bathrooms:</strong> 1.5 shared bathrooms, with the master bedroom having a private bathroom.</li>\n<li><strong>Pet Policy:</strong> Pets not allowed</li>\n</ul>"
+    "property-description": "<h2>Property Overview</h2><p>This charming retreat in Knoxville offers a cozy and comfortable stay. The property features modern amenities and is perfect for both short and long stays.</p><p>&nbsp;</p><p>The space includes a fully equipped kitchen, a spacious living area, and dedicated workspaces. The bedroom is designed for relaxation with a comfortable bed and ample storage.</p><p>&nbsp;</p><h2>Amenities</h2><p>🍳 Fully equipped kitchen with modern appliances</p><p>🛏️ Comfortable bedroom with premium linens</p><p>💻 High-speed Wi-Fi and dedicated workspace</p><p>📺 Smart TV with streaming services</p><p>🧺 In-unit washer and dryer</p><p>🚗 Free parking on premises</p><p>❄️ Air conditioning and heating</p><p>&nbsp;</p><h2>Location</h2><p>Located in a quiet neighborhood in Knoxville, this property is close to local attractions, restaurants, and shopping centers. Enjoy easy access to downtown Knoxville and the University of Tennessee.</p>",
+    "feature-list": "<ul>\n<li><strong>Bedrooms:</strong> 2</li>\n<li><strong>Bathrooms:</strong> 1</li>\n<li><strong>Pet Policy:</strong> Pets not allowed</li>\n</ul>"
   },
-  "gallery-desc": "<h2>Rooms</h2>\n<p>&nbsp;</p>\n<p>Each room below goes to <strong>airbnb</strong> which has availability and pricing information. Please check availability by clicking each picture.</p>\n<p>&nbsp;</p>",
+  "gallery-desc": "<h2>Rooms</h2><p>&nbsp;</p><p>Each room below goes to <strong>airbnb</strong> which has availability and pricing information. Please check availability by clicking each picture.</p><p>&nbsp;</p>",
   "airbnbLinks": [
     {
       "link": "https://www.airbnb.com/rooms/1030589498253747656",
@@ -25,58 +25,31 @@
   ],
   "pictures": [
     {
-      "image": "./cherry-grove-images/Front_2.jpg"
+      "image": "./images/2413 Chimney Ridge Road/2413 Chimney Ridge Road_Exterior_Aerial_Front.jpg"
     },
     {
-      "image": "./cherry-grove-images/Front.jpg"
+      "image": "./images/2413 Chimney Ridge Road/2413 Chimney Ridge Road_Exterior_Aerial_Backyard.JPG"
     },
     {
-      "image": "./cherry-grove-images/Foyer.jpg"
+      "image": "./images/2413 Chimney Ridge Road/2413 Chimney Ridge Road_Exterior_Porch.jpg"
     },
     {
-      "image": "./cherry-grove-images/Kitchen.jpg"
+      "image": "./images/2413 Chimney Ridge Road/2413 Chimney Ridge Road_Exterior_8_Acre_Land.jpg"
     },
     {
-      "image": "./cherry-grove-images/Kitchen_2.jpg"
+      "image": "./images/2413 Chimney Ridge Road/2413 Chimney Ridge Road_Exterior_Peacock_on_Roof.jpg"
     },
     {
-      "image": "./cherry-grove-images/Kitchen_3.jpg"
+      "image": "./images/2413 Chimney Ridge Road/2413 Chimney Ridge Road_Interior_Living_Space.jpg"
     },
     {
-      "image": "./cherry-grove-images/photo_10_2023-11-08_06-02-46.jpg"
+      "image": "./images/2413 Chimney Ridge Road/2413 Chimney Ridge Road_Interior_Detail.jpeg"
     },
     {
-      "image": "./cherry-grove-images/photo_12_2023-11-08_06-02-46.jpg"
+      "image": "./images/2413 Chimney Ridge Road/2413 Chimney Ridge Road_Bedroom_1.jpg"
     },
     {
-      "image": "./cherry-grove-images/photo_13_2023-11-08_06-02-46.jpg"
-    },
-    {
-      "image": "./cherry-grove-images/photo_14_2023-11-08_06-02-46.jpg"
-    },
-    {
-      "image": "./cherry-grove-images/photo_2_2023-11-08_06-02-46.jpg"
-    },
-    {
-      "image": "./cherry-grove-images/photo_3_2023-11-08_06-02-46.jpg"
-    },
-    {
-      "image": "./cherry-grove-images/photo_4_2023-11-08_06-02-46.jpg"
-    },
-    {
-      "image": "./cherry-grove-images/photo_5_2023-11-08_06-02-46.jpg"
-    },
-    {
-      "image": "./cherry-grove-images/photo_6_2023-11-08_06-02-46.jpg"
-    },
-    {
-      "image": "./cherry-grove-images/photo_7_2023-11-08_06-02-46.jpg"
-    },
-    {
-      "image": "./cherry-grove-images/photo_8_2023-11-08_06-02-46.jpg"
-    },
-    {
-      "image": "./cherry-grove-images/photo_9_2023-11-08_06-02-46.jpg"
+      "image": "./images/2413 Chimney Ridge Road/2413 Chimney Ridge Road_Bedroom_2.jpg"
     }
   ]
 }
