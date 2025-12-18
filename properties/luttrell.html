@@ -632,6 +632,73 @@
         transform: translateX(5px);
       }
 
+      /* Amenities Section */
+      .amenities-section {
+        margin: 1rem 0 4rem;
+      }
+
+      .amenities-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 1.5rem;
+        margin-top: 2rem;
+      }
+
+      .amenities-category {
+        background: var(--white);
+        padding: 1.5rem;
+        border-radius: var(--border-radius);
+        box-shadow: var(--shadow-sm);
+        border: 1px solid #e2e8f0;
+      }
+
+      .amenities-category h3 {
+        font-family: "Playfair Display", serif;
+        font-size: 1.25rem;
+        color: var(--primary-color);
+        margin-bottom: 1rem;
+      }
+
+      .amenities-list {
+        list-style: none;
+      }
+
+      .amenities-list li {
+        display: flex;
+        gap: 0.75rem;
+        align-items: flex-start;
+        padding: 0.6rem 0;
+        border-bottom: 1px solid #e2e8f0;
+        color: var(--text-color);
+      }
+
+      .amenities-list li:last-child {
+        border-bottom: none;
+      }
+
+      .amenities-list i {
+        color: var(--primary-light);
+        font-size: 1.05rem;
+        width: 20px;
+        margin-top: 2px;
+      }
+
+      .amenity-unavailable {
+        color: var(--text-light);
+      }
+
+      .amenity-unavailable strong {
+        color: var(--error-color);
+        font-weight: 700;
+      }
+
+      .amenity-note {
+        display: block;
+        margin-top: 0.25rem;
+        font-size: 0.95rem;
+        color: var(--text-light);
+      }
+
       /* Gallery Section - UPDATED */
       .gallery-section {
         margin: 4rem 0;
@@ -1365,6 +1432,135 @@
             Schedule a Tour
           </a>
         </aside>
+      </section>
+
+      <section class="amenities-section" aria-labelledby="amenities-heading">
+        <div class="property-description">
+          <h2 id="amenities-heading">What this place offers</h2>
+          <div class="amenities-grid">
+            <div class="amenities-category">
+              <h3>Bathroom</h3>
+              <ul class="amenities-list">
+                <li><i class="fas fa-wind"></i><span>Hair dryer</span></li>
+                <li><i class="fas fa-hot-tub-person"></i><span>Hot water</span></li>
+              </ul>
+            </div>
+
+            <div class="amenities-category">
+              <h3>Bedroom and laundry</h3>
+              <ul class="amenities-list">
+                <li><i class="fas fa-soap"></i><span>Washer</span></li>
+                <li><i class="fas fa-shirt"></i><span>Dryer</span></li>
+              </ul>
+            </div>
+
+            <div class="amenities-category">
+              <h3>Entertainment</h3>
+              <ul class="amenities-list">
+                <li><i class="fas fa-tv"></i><span>TV</span></li>
+              </ul>
+            </div>
+
+            <div class="amenities-category">
+              <h3>Heating and cooling</h3>
+              <ul class="amenities-list">
+                <li><i class="fas fa-snowflake"></i><span>Air conditioning</span></li>
+                <li><i class="fas fa-fire"></i><span>Indoor fireplace</span></li>
+              </ul>
+            </div>
+
+            <div class="amenities-category">
+              <h3>Home safety</h3>
+              <ul class="amenities-list">
+                <li><i class="fas fa-bell"></i><span>Smoke alarm</span></li>
+                <li><i class="fas fa-skull-crossbones"></i><span>Carbon monoxide alarm</span></li>
+                <li><i class="fas fa-fire-extinguisher"></i><span>Fire extinguisher</span></li>
+              </ul>
+            </div>
+
+            <div class="amenities-category">
+              <h3>Internet and office</h3>
+              <ul class="amenities-list">
+                <li><i class="fas fa-wifi"></i><span>Wifi</span></li>
+                <li><i class="fas fa-briefcase"></i><span>Dedicated workspace</span></li>
+              </ul>
+            </div>
+
+            <div class="amenities-category">
+              <h3>Kitchen and dining</h3>
+              <ul class="amenities-list">
+                <li>
+                  <i class="fas fa-kitchen-set"></i>
+                  <span>
+                    Kitchen
+                    <span class="amenity-note"
+                      >Space where guests can cook their own meals</span
+                    >
+                  </span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="amenities-category">
+              <h3>Outdoor</h3>
+              <ul class="amenities-list">
+                <li><i class="fas fa-utensils"></i><span>Outdoor dining area</span></li>
+              </ul>
+            </div>
+
+            <div class="amenities-category">
+              <h3>Parking and facilities</h3>
+              <ul class="amenities-list">
+                <li><i class="fas fa-square-parking"></i><span>Free parking on premises</span></li>
+              </ul>
+            </div>
+
+            <div class="amenities-category">
+              <h3>Services</h3>
+              <ul class="amenities-list">
+                <li>
+                  <i class="fas fa-calendar-alt"></i>
+                  <span>
+                    Long term stays allowed
+                    <span class="amenity-note">Allow stay for 28 days or more</span>
+                  </span>
+                </li>
+                <li><i class="fas fa-key"></i><span>Self check-in</span></li>
+                <li><i class="fas fa-lock"></i><span>Lockbox</span></li>
+              </ul>
+            </div>
+
+            <div class="amenities-category">
+              <h3>Privacy and safety</h3>
+              <ul class="amenities-list">
+                <li class="amenity-unavailable">
+                  <i class="fas fa-door-closed"></i>
+                  <span
+                    ><strong>Unavailable:</strong> Lock on bedroom door
+                    <span class="amenity-note"
+                      >There is no lock on the bedroom door.</span
+                    ></span
+                  >
+                </li>
+                <li class="amenity-unavailable">
+                  <i class="fas fa-video"></i>
+                  <span
+                    ><strong>Unavailable:</strong> Exterior security cameras on
+                    property</span
+                  >
+                </li>
+                <li class="amenity-unavailable">
+                  <i class="fas fa-box-open"></i>
+                  <span><strong>Unavailable:</strong> Essentials</span>
+                </li>
+                <li class="amenity-unavailable">
+                  <i class="fas fa-temperature-high"></i>
+                  <span><strong>Unavailable:</strong> Heating</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section class="gallery-section" aria-labelledby="gallery-heading">

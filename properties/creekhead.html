@@ -12,16 +12,13 @@
     />
     <meta
       name="description"
-      content="Discover Creekhead, a scenic single-family home in Nashville, TN featuring beautiful views, modern amenities, and proximity to nature. Perfect for those who appreciate peaceful surroundings with easy access to city amenities. Address: 123 Main Street, Nashville, TN 37203. Phone: (615) 555-0123. Office Hours: Monday - Friday: 9:00 AM - 6:00 PM, Saturday: 10:00 AM - 4:00 PM, Sunday: Closed."
+      content="Discover Creekhead, a scenic single-family home in Knoxville, TN featuring beautiful views, modern amenities, and proximity to nature. Perfect for those who appreciate peaceful surroundings with easy access to city amenities."
     />
     <meta
       name="keywords"
-      content="Creekhead Nashville, scenic home Nashville TN, Nashville rental properties, Blunova Properties Creekhead, nature view house Nashville, tranquil living Nashville, Nashville area rentals, 123 Main Street, Nashville, TN 37203, (615) 555-0123"
+      content="Creekhead Knoxville, scenic home Knoxville TN, Knoxville rental properties, Blunova Properties Creekhead, nature view house Knoxville, tranquil living Knoxville, Knoxville area rentals"
     />
     <meta name="author" content="Blunova Properties" />
-      <meta name="contact:address" content="123 Main Street, Nashville, TN 37203" />
-      <meta name="contact:phone_number" content="(615) 555-0123" />
-      <meta name="contact:office_hours" content="Monday - Friday: 9:00 AM - 6:00 PM; Saturday: 10:00 AM - 4:00 PM; Sunday: Closed" />
     <meta name="robots" content="index, follow" />
     <meta name="language" content="English" />
     <meta name="revisit-after" content="7 days" />
@@ -58,9 +55,9 @@
     />
     <meta
       property="og:description"
-      content="Discover Creekhead, a scenic single-family home in Nashville, TN featuring beautiful views, modern amenities, and proximity to nature. Perfect for those who appreciate peaceful surroundings with easy access to city amenities. Address: 123 Main Street, Nashville, TN 37203. Phone: (615) 555-0123. Office Hours: Monday - Friday: 9:00 AM - 6:00 PM, Saturday: 10:00 AM - 4:00 PM, Sunday: Closed."
+      content="Discover Creekhead, a scenic single-family home in Knoxville, TN featuring beautiful views, modern amenities, and proximity to nature. Perfect for those who appreciate peaceful surroundings with easy access to city amenities."
     />
-    <meta property="og:image" content="https://blunovainc.com/properties/cherry-grove-images/Front.jpg" />
+    <meta property="og:image" content="https://blunovainc.com/images/5454 Creekhead Cove Lane/5454 Creekhead Cove Lane_Exterior_Front_Main.webp" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta
@@ -79,9 +76,9 @@
     />
     <meta
       name="twitter:description"
-      content="Discover Creekhead, a scenic single-family home in Nashville, TN featuring beautiful views, modern amenities, and proximity to nature. Perfect for those who appreciate peaceful surroundings with easy access to city amenities. Address: 123 Main Street, Nashville, TN 37203. Phone: (615) 555-0123. Office Hours: Monday - Friday: 9:00 AM - 6:00 PM, Saturday: 10:00 AM - 4:00 PM, Sunday: Closed."
+      content="Discover Creekhead, a scenic single-family home in Knoxville, TN featuring beautiful views, modern amenities, and proximity to nature. Perfect for those who appreciate peaceful surroundings with easy access to city amenities."
     />
-    <meta name="twitter:image" content="https://blunovainc.com/properties/cherry-grove-images/Front.jpg" />
+    <meta name="twitter:image" content="https://blunovainc.com/images/5454 Creekhead Cove Lane/5454 Creekhead Cove Lane_Exterior_Front_Main.webp" />
     <meta
       name="twitter:image:alt"
       content="Creekhead property - Scenic home in Knoxville, Tennessee"
@@ -99,18 +96,15 @@
         "@context": "https://schema.org",
         "@type": "House",
         "name": "Creekhead",
-        "description": "Scenic single-family home in Nashville featuring beautiful views, modern amenities, and proximity to nature.",
+        "description": "Scenic single-family home in Knoxville featuring beautiful views, modern amenities, and proximity to nature.",
         "url": "https://blunovainc.com/properties/creekhead.html",
         "image": [
-          "https://blunovainc.com/properties/cherry-grove-images/Front.jpg",
-          "https://blunovainc.com/properties/cherry-grove-images/Front_2.jpg"
+          "https://blunovainc.com/images/5454 Creekhead Cove Lane/5454 Creekhead Cove Lane_Exterior_Front_Main.webp"
         ],
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "123 Main Street",
-          "addressLocality": "Nashville",
+          "addressLocality": "Knoxville",
           "addressRegion": "TN",
-          "postalCode": "37203",
           "addressCountry": "US"
         },
         "geo": {
@@ -200,6 +194,7 @@
         --border-radius: 12px;
         --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
       }
+
       .mv-bar.mv-ui {
         z-index: 1100 !important;
         position: absolute;
@@ -340,6 +335,7 @@
         background: var(--white);
         padding: 1rem 0;
         border-bottom: 1px solid #e2e8f0;
+        margin-top: 72px;
       }
 
       .breadcrumb-inner {
@@ -370,16 +366,22 @@
       /* Property Hero Section */
       .property-hero {
         min-height: 70vh;
-        background-image: url("./cherry-grove-images/Front.jpg");
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
         display: flex;
         align-items: flex-end;
         justify-content: center;
         color: white;
         position: relative;
-        margin-top: 72px;
+        overflow: hidden;
+      }
+
+      .hero-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 0;
       }
 
       .property-hero::before {
@@ -394,18 +396,16 @@
           rgba(26, 54, 93, 0.3) 0%,
           rgba(26, 54, 93, 0.8) 100%
         );
+        z-index: 1;
       }
 
       .property-hero-content {
         position: relative;
-        z-index: 1;
+        z-index: 2;
         padding: 4rem 2rem;
         width: 100%;
-        background: linear-gradient(
-          to bottom,
-          rgba(0, 0, 0, 0) 0%,
-          rgba(0, 0, 0, 0.5) 100%
-        );
+        max-width: 1400px;
+        margin: 0 auto;
       }
 
       .property-badge {
@@ -608,9 +608,10 @@
         transform: translateX(5px);
       }
 
-      /* Gallery Section */
+      /* Gallery Section - UPDATED */
       .gallery-section {
         margin: 4rem 0;
+        padding: 2rem 0;
       }
 
       .gallery-section h2 {
@@ -638,33 +639,275 @@
         border-radius: 2px;
       }
 
+      .gallery-section h3 {
+        font-family: "Playfair Display", serif;
+        font-size: 1.25rem;
+        color: var(--primary-color);
+        margin: 3rem 0 1.5rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid #e2e8f0;
+      }
+
       .gallery-desc {
         text-align: center;
         margin-bottom: 3rem;
         color: var(--text-light);
         font-size: 1.1rem;
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
       }
 
+      /* Gallery Grid - UPDATED */
       .gallery {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-        gap: 1.5rem;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 2rem;
         margin-bottom: 3rem;
+        padding: 1rem 0;
       }
 
+      /* Gallery Item Container - NEW */
+      .gallery > div,
+      .gallery > a {
+        position: relative;
+        border-radius: var(--border-radius);
+        overflow: hidden;
+        background: var(--white);
+        box-shadow: var(--shadow-md);
+        transition: var(--transition);
+      }
+
+      .gallery > div:hover,
+      .gallery > a:hover {
+        transform: translateY(-8px);
+        box-shadow: var(--shadow-xl);
+      }
+
+      /* Gallery Images - UPDATED */
       .gallery img {
         width: 100%;
-        height: 250px;
+        height: 280px;
         object-fit: cover;
-        border-radius: var(--border-radius);
+        display: block;
         transition: var(--transition);
-        box-shadow: var(--shadow-sm);
         cursor: pointer;
       }
 
-      .gallery img:hover {
-        transform: scale(1.03);
-        box-shadow: var(--shadow-lg);
+      .gallery > div:hover img,
+      .gallery > a:hover img {
+        transform: scale(1.05);
+      }
+
+      /* Gallery Image Overlay - NEW */
+      .gallery > div::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(
+          to bottom,
+          transparent 60%,
+          rgba(26, 54, 93, 0.3) 100%
+        );
+        opacity: 0;
+        transition: var(--transition);
+        pointer-events: none;
+      }
+
+      .gallery > div:hover::after {
+        opacity: 1;
+      }
+
+      /* View Icon on Hover - NEW */
+      .gallery > div::before {
+        content: "\f00e"; /* Font Awesome search-plus icon */
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        color: white;
+        font-size: 2rem;
+        z-index: 2;
+        opacity: 0;
+        transition: var(--transition);
+        pointer-events: none;
+        text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+      }
+
+      .gallery > div:hover::before {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+      }
+
+      .gallery a {
+        display: block;
+        text-decoration: none;
+      }
+
+      .gallery a img {
+        width: 100%;
+        height: 280px;
+        object-fit: cover;
+      }
+
+      /* Lightbox Styles - NEW */
+      .lightbox-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.95);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10000;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s ease, visibility 0.3s ease;
+        padding: 2rem;
+      }
+
+      .lightbox-overlay.active {
+        opacity: 1;
+        visibility: visible;
+      }
+
+      .lightbox-content {
+        position: relative;
+        max-width: 90vw;
+        max-height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .lightbox-image {
+        max-width: 100%;
+        max-height: 85vh;
+        object-fit: contain;
+        border-radius: 8px;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+        transform: scale(0.9);
+        opacity: 0;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+      }
+
+      .lightbox-overlay.active .lightbox-image {
+        transform: scale(1);
+        opacity: 1;
+      }
+
+      .lightbox-close {
+        position: absolute;
+        top: -50px;
+        right: 0;
+        background: rgba(255, 255, 255, 0.1);
+        border: none;
+        color: white;
+        font-size: 1.5rem;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: var(--transition);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .lightbox-close:hover {
+        background: var(--accent-color);
+        transform: rotate(90deg);
+      }
+
+      .lightbox-nav {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(255, 255, 255, 0.1);
+        border: none;
+        color: white;
+        font-size: 1.5rem;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: var(--transition);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .lightbox-nav:hover {
+        background: var(--accent-color);
+      }
+
+      .lightbox-nav.prev {
+        left: -70px;
+      }
+
+      .lightbox-nav.next {
+        right: -70px;
+      }
+
+      .lightbox-counter {
+        position: absolute;
+        bottom: -40px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 0.9rem;
+      }
+
+      /* Body no scroll when lightbox open */
+      body.lightbox-open {
+        overflow: hidden;
+      }
+
+      /* Responsive Gallery - UPDATED */
+      @media (max-width: 768px) {
+        .gallery {
+          grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+          gap: 1.25rem;
+        }
+
+        .gallery img {
+          height: 220px;
+        }
+
+        .lightbox-nav.prev {
+          left: 10px;
+        }
+
+        .lightbox-nav.next {
+          right: 10px;
+        }
+
+        .lightbox-close {
+          top: 10px;
+          right: 10px;
+        }
+
+        .lightbox-counter {
+          bottom: 20px;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .gallery {
+          grid-template-columns: 1fr;
+          gap: 1rem;
+        }
+
+        .gallery img {
+          height: 200px;
+        }
       }
 
       /* Footer */
@@ -852,9 +1095,12 @@
           display: block;
         }
 
+        .breadcrumb {
+          margin-top: 60px;
+        }
+
         .property-hero {
           background-attachment: scroll;
-          margin-top: 72px;
         }
 
         .property-hero-content {
@@ -962,7 +1208,11 @@
 
     <header role="banner">
       <nav role="navigation" aria-label="Main navigation">
-        <a href="../index.html" class="logo" aria-label="Blunova Properties Home">
+        <a
+          href="../index.html"
+          class="logo"
+          aria-label="Blunova Properties Home"
+        >
           <span class="logo-icon">🏠</span>
           Blunova Properties
         </a>
@@ -975,15 +1225,15 @@
         </button>
         <ul class="nav-links">
           <li>
-            <a href="../index.html"
-              ><i class="fas fa-home"></i> Home</a
-            >
+            <a href="../index.html"><i class="fas fa-home"></i> Home</a>
           </li>
           <li>
             <a href="../about.html"><i class="fas fa-info-circle"></i> About</a>
           </li>
           <li>
-            <a href="../contact.html"><i class="fas fa-envelope"></i> Contact</a>
+            <a href="../contact.html"
+              ><i class="fas fa-envelope"></i> Contact</a
+            >
           </li>
         </ul>
       </nav>
@@ -1001,6 +1251,7 @@
     </nav>
 
     <section class="property-hero" aria-label="Creekhead Property">
+      <img property="heroImage" src="./images/5454 Creekhead Cove Lane/5454 Creekhead Cove Lane_Exterior_Front_Main.webp" class="hero-background" alt="Hero Image" />
       <div class="property-hero-content">
         <span class="property-badge">Available Now</span>
         <h1 class="tinymce" property>Creekhead</h1>
@@ -1009,47 +1260,56 @@
           <span class="tinymce" property>Knoxville, TN</span>
         </div>
         <div class="property-hero-stats">
-          <div class="footer-content">
-            <div class="footer-section footer-about">
-              <h3>About Blunova</h3>
-              <p>
-                Blunova Properties is dedicated to providing quality rental homes in Nashville, Tennessee. Our mission is to offer well-maintained, comfortable, and affordable single-family homes with professional management and responsive service.
-              </p>
-            </div>
-            <div class="footer-section">
-              <h3>Contact</h3>
-              <div class="footer-contact-item">
-                <i class="fas fa-map-marker-alt"></i>
-                <span>123 Main Street, Nashville, TN 37203</span>
-              </div>
-              <div class="footer-contact-item">
-                <i class="fas fa-phone"></i>
-                <a href="tel:+16155550123">(615) 555-0123</a>
-              </div>
-              <div class="footer-contact-item">
-                <i class="fas fa-clock"></i>
-                <span>Office Hours:<br />Monday - Friday: 9:00 AM - 6:00 PM<br />Saturday: 10:00 AM - 4:00 PM<br />Sunday: Closed</span>
-              </div>
-            </div>
-            <div class="footer-section">
-              <h3>Quick Links</h3>
-              <ul class="footer-links">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../about.html">About</a></li>
-                <li><a href="../contact.html">Contact</a></li>
-              </ul>
-            </div>
+          <div class="hero-stat">
+            <span class="hero-stat-value">4</span>
+            <span class="hero-stat-label">Bedrooms</span>
           </div>
+          <div class="hero-stat">
+            <span class="hero-stat-value">2</span>
+            <span class="hero-stat-label">Bathrooms</span>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat-value">~1,500</span>
+            <span class="hero-stat-label">Sq. Ft.</span>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat-value">No</span>
+            <span class="hero-stat-label">Pets Allowed</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main id="main-content" role="main">
+      <section
+        class="property-details"
+        aria-labelledby="property-overview-heading"
+      >
+        <div class="property-description">
+          <h2 id="property-overview-heading">Property Overview</h2>
           <p class="tinymce" property>
-            Despite its natural setting, Creekhead doesn't compromise on modern amenities. The home features central air conditioning for year-round comfort, an in-unit washer and dryer for convenience, and high-speed internet connectivity. The property has been thoughtfully maintained to ensure comfortable living while preserving its connection to the natural surroundings.
+            This charming retreat in Knoxville offers a cozy and comfortable stay. The property features modern amenities and is perfect for both short and long stays.
+          </p>
+          <p class="tinymce" property>
+            The space includes a fully equipped kitchen, a spacious living area, and dedicated workspaces. The bedroom is designed for relaxation with a comfortable bed and ample storage.
+          </p>
+          <h2>Character & Comfort</h2>
+          <p class="tinymce" property>
+            Creekhead combines timeless architectural features with practical modern amenities. The spacious rooms are filled with natural light, creating bright, inviting spaces that feel both expansive and cozy at the same time.
+          </p>
+          <h2>Community & Location</h2>
+          <p class="tinymce" property>
+            Located in a quiet neighborhood in Knoxville, this property is close to local attractions, restaurants, and shopping centers. Enjoy easy access to downtown Knoxville and the University of Tennessee.
           </p>
         </div>
         <aside class="property-features" aria-label="Property details">
           <h3>Quick Facts</h3>
           <ul class="feature-list">
-            <li><i class="fas fa-bed"></i> 3 Bedrooms</li>
+            <li><i class="fas fa-bed"></i> 4 Bedrooms</li>
             <li><i class="fas fa-bath"></i> 2 Bathrooms</li>
-            <li><i class="fas fa-ruler-combined"></i> Approximately 1,500 sq ft</li>
+            <li>
+              <i class="fas fa-ruler-combined"></i> Approximately 1,500 sq ft
+            </li>
             <li><i class="fas fa-car"></i> Off-street parking</li>
             <li><i class="fas fa-times-circle"></i> No pets allowed</li>
             <li><i class="fas fa-snowflake"></i> Central AC & Heating</li>
@@ -1066,14 +1326,25 @@
       <section class="gallery-section" aria-labelledby="gallery-heading">
         <h2 id="gallery-heading">Property Gallery</h2>
         <p class="gallery-desc">
-          Explore the Creekhead property through our photo gallery. Click on any image to view it in full size.
+          Explore the Creekhead property through our photo gallery. Click on any
+          image to view it in full size.
         </p>
 
-        <h3>Individual Rooms</h3>
+        <h3>Book room on Airbnb</h3>
         <div class="gallery" mv-list>
           <div property="airbnbLinks" mv-list-item>
-            <a href="https://www.airbnb.com/rooms/1030589498253747656" target="_blank" rel="noopener noreferrer" property="link" aria-label="View room details on Airbnb">
-              <img src="./rooms/3.webp" alt="Bedroom available at Creekhead property" property="image" />
+            <a
+              href="https://www.airbnb.com/rooms/1030589498253747656"
+              target="_blank"
+              rel="noopener noreferrer"
+              property="link"
+              aria-label="View room details on Airbnb"
+            >
+              <img
+                src="./rooms/3.webp"
+                alt="Bedroom available at Creekhead property"
+                property="image"
+              />
             </a>
           </div>
         </div>
@@ -1081,10 +1352,11 @@
         <h3>Entire Property</h3>
         <div class="gallery" mv-list>
           <div class="fade-in" mv-list-item property="pictures">
-            <img src="./cherry-grove-images/Front.jpg" alt="Front exterior view of Creekhead property" property="image" />
-          </div>
-          <div class="fade-in" mv-list-item property="pictures">
-            <img src="./cherry-grove-images/Front_2.jpg" alt="Natural surroundings of Creekhead property" property="image" />
+            <img
+              src="./images/5454 Creekhead Cove Lane/5454 Creekhead Cove Lane_Exterior_Front_Main.webp"
+              alt="image"
+              property="image"
+            />
           </div>
         </div>
       </section>
@@ -1176,7 +1448,9 @@
           </div>
           <div class="footer-contact-item">
             <i class="fas fa-clock"></i>
-            <span>Mon-Fri: 9AM - 6PM<br>Sat: 10AM - 4PM<br>Sunday: Closed</span>
+            <span
+              >Mon-Fri: 9AM - 6PM<br />Sat: 10AM - 4PM<br />Sunday: Closed</span
+            >
           </div>
         </div>
       </div>
@@ -1209,26 +1483,151 @@
       document.addEventListener(
         "mv-load",
         () => {
-          const galleryImages = document.querySelectorAll(".gallery>div>img");
+          // Create lightbox elements
+          const lightboxOverlay = document.createElement("div");
+          lightboxOverlay.className = "lightbox-overlay";
+          lightboxOverlay.innerHTML = `
+        <div class="lightbox-content">
+          <button class="lightbox-close" aria-label="Close lightbox">
+            <i class="fas fa-times"></i>
+          </button>
+          <button class="lightbox-nav prev" aria-label="Previous image">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <img class="lightbox-image" src="" alt="Gallery image">
+          <button class="lightbox-nav next" aria-label="Next image">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+          <div class="lightbox-counter"></div>
+        </div>
+      `;
+          document.body.appendChild(lightboxOverlay);
 
-          galleryImages.forEach((img) => {
-            img.addEventListener("click", () => {
-              const fullscreenImg = document.createElement("div");
-              fullscreenImg.style = `position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.9); display: flex; align-items: center; justify-content: center; z-index: 9999;`;
+          const lightboxImage =
+            lightboxOverlay.querySelector(".lightbox-image");
+          const lightboxCounter =
+            lightboxOverlay.querySelector(".lightbox-counter");
+          const closeBtn = lightboxOverlay.querySelector(".lightbox-close");
+          const prevBtn = lightboxOverlay.querySelector(".lightbox-nav.prev");
+          const nextBtn = lightboxOverlay.querySelector(".lightbox-nav.next");
 
-              const imgElement = document.createElement("img");
-              imgElement.src = img.src;
-              imgElement.style.maxWidth = "90%";
-              imgElement.style.maxHeight = "90%";
-              imgElement.style.objectFit = "contain";
+          let currentImages = [];
+          let currentIndex = 0;
 
-              fullscreenImg.appendChild(imgElement);
-              document.body.appendChild(fullscreenImg);
+          // Get all gallery images (excluding linked ones like Airbnb)
+          function updateGalleryImages() {
+            currentImages = Array.from(
+              document.querySelectorAll(
+                ".gallery > div:not(:has(a)) > img, .gallery > div > img:not(a img)"
+              )
+            ).filter((img) => !img.closest("a"));
+          }
 
-              fullscreenImg.addEventListener("click", () => {
-                document.body.removeChild(fullscreenImg);
-              });
-            });
+          function openLightbox(index) {
+            updateGalleryImages();
+            currentIndex = index;
+            updateLightboxImage();
+            lightboxOverlay.classList.add("active");
+            document.body.classList.add("lightbox-open");
+          }
+
+          function closeLightbox() {
+            lightboxOverlay.classList.remove("active");
+            document.body.classList.remove("lightbox-open");
+          }
+
+          function updateLightboxImage() {
+            if (currentImages[currentIndex]) {
+              lightboxImage.src = currentImages[currentIndex].src;
+              lightboxImage.alt =
+                currentImages[currentIndex].alt || "Gallery image";
+              lightboxCounter.textContent = `${currentIndex + 1} / ${
+                currentImages.length
+              }`;
+            }
+          }
+
+          function nextImage() {
+            currentIndex = (currentIndex + 1) % currentImages.length;
+            updateLightboxImage();
+          }
+
+          function prevImage() {
+            currentIndex =
+              (currentIndex - 1 + currentImages.length) % currentImages.length;
+            updateLightboxImage();
+          }
+
+          // Event listeners for gallery images
+          document.addEventListener("click", (e) => {
+            const galleryImg = e.target.closest(
+              ".gallery > div:not(:has(a)) > img"
+            );
+            if (galleryImg && !galleryImg.closest("a")) {
+              e.preventDefault();
+              updateGalleryImages();
+              const index = currentImages.indexOf(galleryImg);
+              if (index !== -1) {
+                openLightbox(index);
+              }
+            }
+          });
+
+          // Close button
+          closeBtn.addEventListener("click", closeLightbox);
+
+          // Navigation buttons
+          nextBtn.addEventListener("click", (e) => {
+            e.stopPropagation();
+            nextImage();
+          });
+
+          prevBtn.addEventListener("click", (e) => {
+            e.stopPropagation();
+            prevImage();
+          });
+
+          // Click outside to close
+          lightboxOverlay.addEventListener("click", (e) => {
+            if (e.target === lightboxOverlay) {
+              closeLightbox();
+            }
+          });
+
+          // Keyboard navigation
+          document.addEventListener("keydown", (e) => {
+            if (!lightboxOverlay.classList.contains("active")) return;
+
+            switch (e.key) {
+              case "Escape":
+                closeLightbox();
+                break;
+              case "ArrowRight":
+                nextImage();
+                break;
+              case "ArrowLeft":
+                prevImage();
+                break;
+            }
+          });
+
+          // Touch/swipe support for mobile
+          let touchStartX = 0;
+          let touchEndX = 0;
+
+          lightboxOverlay.addEventListener("touchstart", (e) => {
+            touchStartX = e.changedTouches[0].screenX;
+          });
+
+          lightboxOverlay.addEventListener("touchend", (e) => {
+            touchEndX = e.changedTouches[0].screenX;
+            const swipeThreshold = 50;
+
+            if (touchStartX - touchEndX > swipeThreshold) {
+              nextImage();
+            } else if (touchEndX - touchStartX > swipeThreshold) {
+              prevImage();
+            }
           });
         },
         { once: true }
