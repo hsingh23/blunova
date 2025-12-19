@@ -555,6 +555,25 @@
         font-size: 0.95rem;
       }
 
+      /* Inline email inside the quick contact card */
+      .quick-contact p a {
+        color: white;
+        font-weight: 700;
+        text-decoration: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+        padding-bottom: 2px;
+        transition: color 150ms ease, border-color 150ms ease;
+      }
+
+      .quick-contact p a:hover,
+      .quick-contact p a:focus {
+        color: white;
+        text-decoration: underline;
+        border-bottom-color: rgba(255, 255, 255, 0.18);
+        outline: none;
+        box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.04);
+      }
+
       .quick-contact-btn {
         display: inline-flex;
         align-items: center;
@@ -1172,19 +1191,6 @@
                   <h3>Email</h3>
                   <p>
                     <a href="mailto:info@blunovainc.com">info@blunovainc.com</a>
-                  </p>
-                </div>
-              </div>
-              <div class="contact-item">
-                <div class="contact-icon">
-                  <i class="fas fa-clock"></i>
-                </div>
-                <div class="contact-details">
-                  <h3>Office Hours</h3>
-                  <p>
-                    Monday – Friday: 9:00 AM – 6:00 PM<br />
-                    Saturday: 10:00 AM – 4:00 PM<br />
-                    Sunday: Closed
                   </p>
                 </div>
               </div>
