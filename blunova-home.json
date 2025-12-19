@@ -39,7 +39,7 @@
 		{
 			"icon": "fa-heart",
 			"title": "Tenant-First Approach",
-			"description": "Your comfort is our priority. We treat every tenant like family and work hard to make your house feel like home."
+			"description": "We give you space and freedom within reason."
 		}
 	],
 	"sectionContent": "<h1>Handpicked Rental Homes in Knoxville, TN</h1>\n<p>Find move-in ready rental homes across Knoxville, Tennessee—professionally managed by Blunova Properties. Our curated selection includes spacious single-family houses and well-appointed apartments in desirable neighborhoods, with modern amenities, flexible lease options, and fast local support.</p>\n<p>Browse listings for Cherry Grove, Creekhead Cove, Chimney Ridge, and Luttrell &amp; 3rd to view photos, floor plans, and availability. Whether you need short-term housing or a long-term rental, discover comfortable, convenient homes in Knoxville, TN.</p>\n<p><strong>Contact us</strong> to schedule a tour or check availability—trusted Knoxville rentals with responsive local management.</p>",
@@ -47,22 +47,22 @@
 		{
 			"title": "Cherry Grove",
 			"location": "Knoxville, TN",
-			"description": "4-bedroom single-family rental in Knoxville — spacious yard, updated kitchen, ideal for families"
+			"description": "4-bedroom for rent in single-family rental in Knoxville — spacious yard, updated kitchen, ideal for families"
 		},
 		{
 			"title": "Creekhead Cove",
 			"location": "Knoxville, TN",
-			"description": "4-bedroom single-family home in Knoxville — updated interiors and convenient location"
+			"description": "4-bedroom for rent in  single-family home in Knoxville — updated interiors and convenient location"
 		},
 		{
 			"title": "Chimney Ridge",
 			"location": "Knoxville, TN",
-			"description": "3-bedroom single-family rental near Knoxville amenities — comfortable layout and updated finishes"
+			"description": "3-bedroom for rent in single-family rental near Knoxville amenities — comfortable layout and updated finishes"
 		},
 		{
 			"title": "Luttrell and 3rd",
 			"location": "Knoxville, TN",
-			"description": "Two 1‑bed and two 2‑bed apartment units in Knoxville — great for professionals and small families"
+			"description": "Two 1‑bed and two 2‑bed for rent in apartment units in Knoxville — great for professionals and small families"
 		}
 	],
 	"testimonials": [
