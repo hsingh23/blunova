@@ -2,7 +2,7 @@
   "heroBadge": "We're Here to Help",
   "heroTitle": "Get in Touch",
   "heroDescription": "Have questions about our properties or ready to schedule a viewing? Our team is here to assist you every step of the way.",
-  "contactInfo": "<h2>Contact Information</h2><p><strong>Address:</strong> 123 Main Street, Nashville, TN 37203</p><p><strong>Phone:</strong> (615) 555-0123</p><p><strong>Office Hours:</strong> Monday – Friday: 9:00 AM – 6:00 PM, Saturday: 10:00 AM – 4:00 PM, Sunday: Closed</p>",
+  "contactInfo": "<h2>Contact Information</h2><p>Please contact us via email at <a href=\"mailto:info@blunovainc.com\">info@blunovainc.com</a> for inquiries and availability.</p>",
   "formId": "contact-form-1",
   "faqItem": [
     {
