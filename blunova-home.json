@@ -1,7 +1,7 @@
 {
   "heroBadge": "Trusted Property Management in Tennessee",
   "heroTitle": "Your Next <span class=\"hero-highlight\">Home</span> Awaits in Knoxville",
-  "heroDescription": "Experience stress-free renting with Blunova Properties. We offer carefully maintained rooms in single-family homes and appartments in Knoxville's most desirable neighborhoods&mdash;complete with modern amenities and responsive property management.",
+  "heroDescription": "Experience stress-free renting with Blunova Properties. We offer carefully maintained rooms in single-family homes and appartments in Knoxville's desirable neighborhoods&mdash;complete with modern amenities and responsive property management.",
   "trustBadges": [
     {
       "icon": "fa-shield-alt",
@@ -48,21 +48,21 @@
       "image": "./properties/cherry-grove-images/Front.jpg",
       "title": "Cherry Grove",
       "location": "Knoxville, TN",
-      "description": "4 bedrooms for rent in a single-family home in Knoxville — spacious yard, updated kitchen, ideal for families",
+      "description": "4 individual bedrooms for rent in a single-family home in Knoxville — spacious yard, updated kitchen, ideal for families",
       "link": "./properties/cherry-grove.html"
     },
     {
       "image": "https://blunovainc.com/properties/images/5454%20Creekhead%20Cove%20Lane/5454%20Creekhead%20Cove%20Lane_Exterior_Front_Main.webp",
       "title": "Creekhead Cove",
       "location": "Knoxville, TN",
-      "description": "4 bedrooms for rent in a single-family home in Knoxville — updated interiors and convenient location",
+      "description": "4 individual bedrooms for rent in a single-family home in Knoxville — updated interiors and convenient location",
       "link": "./properties/creekhead.html"
     },
     {
       "image": "https://blunovainc.com/properties/images/2413%20Chimney%20Ridge%20Road/2413%20Chimney%20Ridge%20Road_Exterior_Aerial_Front.jpg",
       "title": "Chimney Ridge",
       "location": "Knoxville, TN",
-      "description": "3 bedrooms for rent in a single-family home near Knoxville amenities — comfortable layout and updated finishes",
+      "description": "3 individual bedrooms for rent in a single-family home near Knoxville amenities — comfortable layout and updated finishes",
       "link": "./properties/chimney.html"
     },
     {
