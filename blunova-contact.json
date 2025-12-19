@@ -15,14 +15,7 @@
     }
   ],
   "links": {
-    "link": [
-      "./about.html",
-      "./properties.html",
-      "./contact.html"
-    ]
+    "link": ["./about.html", "./properties.html", "./contact.html"]
   },
-  "link": [
-    "./about.html",
-    "./contact.html"
-  ]
+  "link": ["./about.html", "./contact.html"]
 }
