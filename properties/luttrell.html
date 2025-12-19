@@ -1436,25 +1436,6 @@
           image to view it in full size.
         </p>
 
-        <h3>Book unit on Airbnb</h3>
-        <div class="gallery" mv-list>
-          <div property="airbnbLinks" mv-list-item>
-            <a
-              href="https://www.airbnb.com/rooms/1030589498253747656"
-              target="_blank"
-              rel="noopener noreferrer"
-              property="link"
-              aria-label="View unit details on Airbnb"
-            >
-              <img
-                src="./luttrell-images/room1.webp"
-                alt="Unit available at Luttrell property"
-                property="image"
-              />
-            </a>
-          </div>
-        </div>
-
         <h3>Entire Property</h3>
         <div class="gallery" mv-list>
           <div class="fade-in" mv-list-item property="pictures">
@@ -1620,7 +1601,7 @@
           let currentImages = [];
           let currentIndex = 0;
 
-          // Get all gallery images (excluding linked ones like Airbnb)
+          // Get all gallery images (excluding linked ones)
           function updateGalleryImages() {
             currentImages = Array.from(
               document.querySelectorAll(
