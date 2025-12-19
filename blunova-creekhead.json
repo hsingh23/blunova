@@ -7,20 +7,24 @@
   "gallery-desc": "<h2>Rooms</h2><p>&nbsp;</p><p>Each room below goes to <strong>airbnb</strong> which has availability and pricing information. Please check availability by clicking each picture.</p><p>&nbsp;</p>",
   "airbnbLinks": [
     {
-      "link": "https://www.airbnb.com/rooms/1030589498253747656",
-      "image": "./rooms/3.webp"
+      "title": "Queen bedroom — Room 1",
+      "link": "https://www.airbnb.com/rooms/1350051290052472123",
+      "image": "./images/5454 Creekhead Cove Lane/5454 Creekhead Cove Lane_Bedroom_Master.jpeg"
     },
     {
-      "link": "https://www.airbnb.com/rooms/1030589992179067582",
-      "image": "./rooms/1.jpeg"
+      "title": "Twin/Single bedroom — Room 2",
+      "link": "https://www.airbnb.com/rooms/1068813368151045145",
+      "image": "./images/5454 Creekhead Cove Lane/5454 Creekhead Cove Lane_Bedroom_Corner_View.jpeg"
     },
     {
-      "link": "https://www.airbnb.com/rooms/1030589321409011455",
-      "image": "./rooms/2.webp"
+      "title": "Queen bedroom — Room 3",
+      "link": "https://www.airbnb.com/rooms/1074005622172619292",
+      "image": "./images/5454 Creekhead Cove Lane/5454 Creekhead Cove Lane_Bedroom_2_Empty.jpeg"
     },
     {
-      "link": "https://www.airbnb.com/rooms/1010131515172519042",
-      "image": "./rooms/4.jpeg"
+      "title": "Queen bedroom — Room 4",
+      "link": "https://www.airbnb.com/rooms/1074005622172619292",
+      "image": "./images/5454 Creekhead Cove Lane/5454 Creekhead Cove Lane_Bedroom_4.jpeg"
     }
   ],
   "pictures": [

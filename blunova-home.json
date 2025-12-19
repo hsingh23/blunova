@@ -74,23 +74,42 @@
     }
   ],
   "testimonials": [
+    
     {
-      "text": "\"Moving to Knoxville was stressful, but Blunova made finding a home so easy. The property was exactly as advertised, and the team has been incredibly responsive whenever I've had questions.\"",
-      "authorInitials": "JM",
-      "authorName": "Jennifer M.",
-      "authorType": "Tenant since 2023"
+      "text": "Great host, absolutely clean space and very understanding. Would definitely come back",
+      "authorInitials": "S",
+      "authorName": "Steven",
+      "authorType": "Burnaby, Canada — 1 week ago"
     },
     {
-      "text": "\"Best rental experience I've ever had. When our AC went out during summer, they had someone there within hours. That kind of service is rare and really appreciated.\"",
-      "authorInitials": "RT",
-      "authorName": "Robert T.",
-      "authorType": "Tenant since 2022"
+      "text": "The place was clean, comfortable, and exactly as described. Communication was clear, and the stay was enjoyable.",
+      "authorInitials": "S",
+      "authorName": "Steven",
+      "authorType": "August 2025"
     },
     {
-      "text": "\"The application process was straightforward, and they were upfront about everything. No hidden fees or surprises. Finally, a property management company that treats tenants with respect!\"",
-      "authorInitials": "SK",
-      "authorName": "Sarah K.",
-      "authorType": "Tenant since 2023"
+      "text": "Had to find a place last minute and she was very quick to respond and got everything set up the same day! I very much enjoyed my time at Stephanie's!",
+      "authorInitials": "Z",
+      "authorName": "Zachary",
+      "authorType": "Lincoln Park, Michigan — April 2025"
+    },
+    {
+      "text": "I had an amazing stay at this Airbnb! The place was incredibly peaceful. Everything was spotless and well-maintained, making it feel like a home away from home. The host was exceptionally kind and helpful, going above and beyond to ensure I had everything I needed. All of the roommates were nice & friendly. I highly recommend this place for anyone looking for a comfortable stay. I'll definitely be back!",
+      "authorInitials": "V",
+      "authorName": "Vinit",
+      "authorType": "India — December 2024"
+    },
+    {
+      "text": "Friendly and responsive host. The home was in a good location and was clean and very peaceful to stay in. I would stay here again 100%.",
+      "authorInitials": "D",
+      "authorName": "Delbert",
+      "authorType": "Las Vegas, Nevada — September 2025"
+    },
+    {
+      "text": "It's such a quiet place it's very relaxing",
+      "authorInitials": "J",
+      "authorName": "John",
+      "authorType": "July 2025"
     }
   ],
   "ctaTitle": "Ready to Find Your Perfect Rental?",
